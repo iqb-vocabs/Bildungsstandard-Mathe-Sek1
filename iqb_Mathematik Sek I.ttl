@@ -1,1292 +1,1292 @@
-@base <https://w3id.org/iqb//bista04/bista04-ma-s1/> .
+@base <https://w3id.org/iqb/bista04/bista04-ma-s1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<ab/63e203d3-62a1-466e-aec6-b68a07c0e9b8> a skos:Concept ;
+<ab/267ccd9f-f6da-4e60-9a94-ba6b9e832e8e> a skos:Concept ;
     skos:broader <ab> ;
     skos:definition "Dieser Anforderungsbereich umfasst die Wiedergabe und direkte Anwendung von grundlegenden Begriffen, Sätzen und Verfahren in einem abgegrenzten Gebiet und einem wiederholenden Zusammenhang."@de ;
     skos:inScheme <> ;
     skos:notation "1" ;
     skos:prefLabel "I Reproduzieren"@de .
 
-<ab/6eb992e8-b699-4221-a6bc-e89e1ebf164d> a skos:Concept ;
-    skos:broader <ab> ;
-    skos:definition "Dieser Anforderungsbereich umfasst das selbstständige Auswählen geeigneter Arbeitstechniken und Verfahren sowie das Bearbeiten komplexer oder unbekannter Sachverhalte u. a. mit dem Ziel, zu eigenen Problemformulierungen, Lösungen, Begründungen, Folgerungen, Interpretationen oder Wertungen zu gelangen."@de ;
-    skos:inScheme <> ;
-    skos:notation "3" ;
-    skos:prefLabel "III Verallgemeinern und Reflektieren"@de .
-
-<ab/8c5c10b7-105d-46f7-acc1-070c9b8f121a> a skos:Concept ;
+<ab/2f573bc1-246b-44a4-88fc-27e33a03432d> a skos:Concept ;
     skos:broader <ab> ;
     skos:definition "Dieser Anforderungsbereich umfasst das selbstständige Auswählen, Anordnen, Darstellen und Bearbeiten bekannter Sachverhalte, indem Kenntnisse, Fertigkeiten und Fähigkeiten verknüpft werden, die in der Auseinandersetzung mit Mathematik auf verschiedenen Gebieten erworben wurden."@de ;
     skos:inScheme <> ;
     skos:notation "2" ;
     skos:prefLabel "II Zusammenhänge herstellen"@de .
 
-<allg/05097581-590c-471c-b450-283596628fe1> a skos:Concept ;
-    skos:broader <allg/8c6e794f-e443-4942-b230-6dd95f41565f> ;
+<ab/42a645df-b472-4d3d-9ef7-075e5650a333> a skos:Concept ;
+    skos:broader <ab> ;
+    skos:definition "Dieser Anforderungsbereich umfasst das selbstständige Auswählen geeigneter Arbeitstechniken und Verfahren sowie das Bearbeiten komplexer oder unbekannter Sachverhalte u. a. mit dem Ziel, zu eigenen Problemformulierungen, Lösungen, Begründungen, Folgerungen, Interpretationen oder Wertungen zu gelangen."@de ;
     skos:inScheme <> ;
-    skos:notation "K1.3.3" ;
-    skos:prefLabel "Fragen stellen, die für die Mathematik charakteristisch sind und Vermutungen begründet äußern"@de .
+    skos:notation "3" ;
+    skos:prefLabel "III Verallgemeinern und Reflektieren"@de .
 
-<allg/06441318-47b6-4ea9-a386-2d03873ba902> a skos:Concept ;
-    skos:broader <allg/ceba5571-ac1c-47a4-a624-b09db23256be> ;
-    skos:inScheme <> ;
-    skos:notation "K4.3.3" ;
-    skos:prefLabel "nicht vertraute Darstellungen lesen und ihre Aussagekraft beurteilen"@de .
-
-<allg/06f05628-4d45-4dbd-8bf9-03fa3de9e8d6> a skos:Concept ;
-    skos:broader <allg/74cc254b-02e2-4436-947c-2439681f7c04> ;
-    skos:inScheme <> ;
-    skos:notation "K2.3.1" ;
-    skos:prefLabel "anspruchsvolle Probleme bearbeiten"@de .
-
-<allg/0ab39733-5477-452a-8275-5347717f9254> a skos:Concept ;
-    skos:broader <allg/6d0f8352-6700-4c73-aa69-c29ed8954935> ;
-    skos:inScheme <> ;
-    skos:notation "K6.1.3" ;
-    skos:prefLabel "auf Fragen und Kritik sachlich und angemessen reagieren"@de .
-
-<allg/0d757c53-05f7-452d-af27-4006e73d1978> a skos:Concept ;
-    skos:broader <allg/162acc25-5a4f-4e03-8b9c-b866c52af29c> ;
-    skos:inScheme <> ;
-    skos:notation "K6.2.4" ;
-    skos:prefLabel "auf Äußerungen von anderen zu mathematischen Inhalten eingehen"@de .
-
-<allg/117ff92b-f32f-4ca4-aeb4-ce493d5bb194> a skos:Concept ;
-    skos:broader <allg/33180353-d173-4b76-a13d-b3f59b092be5> ;
-    skos:inScheme <> ;
-    skos:notation "K1.1.1" ;
-    skos:prefLabel "Routineargumentationen wiedergeben (wie Rechnungen, Verfahren, Herleitungen, Sätze, die aus dem Unterricht vertraut sind)"@de .
-
-<allg/14bd0e05-a6fe-4830-a5cf-dd8bdd50214c> a skos:Concept ;
-    skos:broader <allg/c4550650-d1cf-4ea3-8242-8f767188dd4b> ;
-    skos:inScheme <> ;
-    skos:notation "K3.2.3" ;
-    skos:prefLabel "einem mathematischen Modell passende Situationen zuordnen"@de .
-
-<allg/17755a5a-ec1f-44f8-8d3c-5130d195f2a8> a skos:Concept ;
-    skos:broader <allg/ca71738d-3219-4286-8245-b4bcf53e10b9> ;
-    skos:inScheme <> ;
-    skos:notation "K3.3.1" ;
-    skos:prefLabel "komplexe oder unvertraute Situationen modellieren"@de .
-
-<allg/180ee706-a742-4063-8d77-e0cd8c78c53a> a skos:Concept ;
-    skos:broader <allg/9a691109-333e-4869-ac82-bd90da393c44> ;
-    skos:inScheme <> ;
-    skos:notation "K4.2.1" ;
-    skos:prefLabel "Beziehungen zwischen Darstellungsformen erkennen und zwischen den Darstellungsformen wechseln"@de .
-
-<allg/19766d15-4ace-43b3-a020-6dda15ac7f36> a skos:Concept ;
-    skos:broader <allg/8c6e794f-e443-4942-b230-6dd95f41565f> ;
-    skos:inScheme <> ;
-    skos:notation "K1.3.2" ;
-    skos:prefLabel "verschiedene Argumentationen bewerten"@de .
-
-<allg/1bc08ba3-a3ca-459a-827c-d534cf468c5f> a skos:Concept ;
-    skos:broader <allg/ca71738d-3219-4286-8245-b4bcf53e10b9> ;
-    skos:inScheme <> ;
-    skos:notation "K3.3.2" ;
-    skos:prefLabel "verwendete mathematische Modelle (wie Formeln, Gleichungen, Darstellungen von Zuordnungen, Zeichnungen, strukturierte Darstellungen, Ablaufpläne) reflektieren und kritisch beurteilen"@de .
-
-<allg/20fabdcd-09df-4ec2-8ca1-b49874e4347f> a skos:Concept ;
-    skos:broader <allg/adaf9afd-65c5-40b3-96da-aec678f8b9fd> ;
-    skos:inScheme <> ;
-    skos:notation "K2.2.1" ;
-    skos:prefLabel "Probleme bearbeiten,deren Lösung die Anwendung von heuristischen Hilfsmitteln, Strategien und Prinzipien erfordert"@de .
-
-<allg/2269e81e-383c-453b-acef-601624bca291> a skos:Concept ;
-    skos:broader <allg/adaf9afd-65c5-40b3-96da-aec678f8b9fd> ;
-    skos:inScheme <> ;
-    skos:notation "K2.2.2" ;
-    skos:prefLabel "Probleme selbst formulieren"@de .
-
-<allg/24e269c7-d5b2-477e-b674-fdd3a6fd17c1> a skos:Concept ;
-    skos:broader <allg/dfd7d65f-e8dc-44bd-bf72-4d2fcc3dfb03> ;
-    skos:inScheme <> ;
-    skos:notation "K6.3.2" ;
-    skos:prefLabel "komplexe mathematische Texte sinnentnehmend erfassen"@de .
-
-<allg/2649a4b4-1bbf-40ed-bfae-bd79f9b07a90> a skos:Concept ;
-    skos:broader <allg/ceba5571-ac1c-47a4-a624-b09db23256be> ;
-    skos:inScheme <> ;
-    skos:notation "K4.3.2" ;
-    skos:prefLabel "verschiedene Formen der Darstellung zweckentsprechend beurteilen"@de .
-
-<allg/2ca31256-7725-438e-ac91-55061b5a4042> a skos:Concept ;
-    skos:broader <allg/bac17183-6378-4a54-8763-2837c90bbe32> ;
-    skos:inScheme <> ;
-    skos:notation "K5.1.3" ;
-    skos:prefLabel "mathematische Werkzeuge (wie Formelsammlungen, Taschenrechner, Software) in Situationen nutzen, in denen ihr Einsatz geübt wurde"@de .
-
-<allg/34aa0368-1b81-4611-afa8-37944161c06a> a skos:Concept ;
-    skos:broader <allg/33180353-d173-4b76-a13d-b3f59b092be5> ;
-    skos:inScheme <> ;
-    skos:notation "K1.1.2" ;
-    skos:prefLabel "mit Alltagswissen argumentieren"@de .
-
-<allg/35962a11-073c-4f12-9f63-96ca803a75c7> a skos:Concept ;
-    skos:broader <allg/162acc25-5a4f-4e03-8b9c-b866c52af29c> ;
-    skos:inScheme <> ;
-    skos:notation "K6.2.2" ;
-    skos:prefLabel "komplexe mathematikhaltige Texte, Graphiken und Abbildungen sinnentnehmend erfassen"@de .
-
-<allg/3b194630-5685-4c8f-8a08-2ada51ddf3d2> a skos:Concept ;
-    skos:broader <allg/834860df-88f9-40ee-b449-12d5d9b3c794> ;
-    skos:inScheme <> ;
-    skos:notation "K1.2.2" ;
-    skos:prefLabel "einen Lösungsweg beschreiben und begründen"@de .
-
-<allg/42149db8-7114-4b5c-9915-fc33b5aabbeb> a skos:Concept ;
-    skos:broader <allg/b1f37200-ff6a-49b4-8e41-b5d08e426f58> ;
-    skos:inScheme <> ;
-    skos:notation "K2.1.2" ;
-    skos:prefLabel "einfache Probleme mit bekannten - auch experimentellen - Verfahren lösen"@de .
-
-<allg/47413905-f00d-47a4-934a-68891cc8db5f> a skos:Concept ;
-    skos:broader <allg/162acc25-5a4f-4e03-8b9c-b866c52af29c> ;
-    skos:inScheme <> ;
-    skos:notation "K6.2.3" ;
-    skos:prefLabel "die Fachsprache adressatengerecht verwenden"@de .
-
-<allg/489257e4-5544-44da-8455-90f78d390fe2> a skos:Concept ;
-    skos:broader <allg/c4550650-d1cf-4ea3-8242-8f767188dd4b> ;
-    skos:inScheme <> ;
-    skos:notation "K3.2.1" ;
-    skos:prefLabel "Modellierungen, die mehrere Schritte erfordern, vornehmen"@de .
-
-<allg/5ebf4d89-63e5-431a-a5ac-a139eb3d6506> a skos:Concept ;
-    skos:broader <allg/162acc25-5a4f-4e03-8b9c-b866c52af29c> ;
-    skos:inScheme <> ;
-    skos:notation "K6.2.5" ;
-    skos:prefLabel "mit Fehlern konstruktiv umgehen"@de .
-
-<allg/67d5c006-80a0-4277-8265-5d1a686b42b8> a skos:Concept ;
-    skos:broader <allg/162acc25-5a4f-4e03-8b9c-b866c52af29c> ;
-    skos:inScheme <> ;
-    skos:notation "K6.2.1" ;
-    skos:prefLabel "Überlegungen, Lösungswege bzw. Ergebnisse verständlich darstellen"@de .
-
-<allg/6f995642-9105-4e7b-895f-aa6df5404cd1> a skos:Concept ;
-    skos:broader <allg/6d0f8352-6700-4c73-aa69-c29ed8954935> ;
-    skos:inScheme <> ;
-    skos:notation "K6.1.2" ;
-    skos:prefLabel "aus kurzen, einfachen mathematikhaltigen Texten, Graphiken und Abbildungen Informationen entnehmen"@de .
-
-<allg/776f0ca6-45c8-413c-b04c-67cbe5ad9c2a> a skos:Concept ;
-    skos:broader <allg/4443edfe-772e-4298-8cea-772b1570058f> ;
-    skos:inScheme <> ;
-    skos:notation "K3.1.2" ;
-    skos:prefLabel "einfachen Erscheinungen aus der Erfahrungswelt mathematische Objekte zuordnen"@de .
-
-<allg/7f8a61f7-b949-4770-a0ed-9f8c321cac69> a skos:Concept ;
-    skos:broader <allg/e1162af2-d8e1-4666-a8ae-f86f7be6f9c0> ;
-    skos:inScheme <> ;
-    skos:notation "K5.2.2" ;
-    skos:prefLabel "symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehr"@de .
-
-<allg/8094485e-b2d5-4128-9d36-df7d748ff529> a skos:Concept ;
-    skos:broader <allg/e1162af2-d8e1-4666-a8ae-f86f7be6f9c0> ;
-    skos:inScheme <> ;
-    skos:notation "K5.2.3" ;
-    skos:prefLabel "mit Variablen, Termen, Gleichungen, Funktionen, Tabellen und Diagrammen arbeiten"@de .
-
-<allg/81c3389f-cb67-4d12-81b8-a2b2413dae2c> a skos:Concept ;
-    skos:broader <allg/b1f37200-ff6a-49b4-8e41-b5d08e426f58> ;
-    skos:inScheme <> ;
-    skos:notation "K2.1.1" ;
-    skos:prefLabel "Routineaufgaben lösen („sich zu helfen wissen“)"@de .
-
-<allg/8822f867-364c-4356-8139-e1ea8aafa2f1> a skos:Concept ;
-    skos:broader <allg/c4550650-d1cf-4ea3-8242-8f767188dd4b> ;
-    skos:inScheme <> ;
-    skos:notation "K3.2.2" ;
-    skos:prefLabel "Ergebnisse einer Modellierung interpretieren und an der Ausgangssituation prüfen"@de .
-
-<allg/906870c8-476f-4365-b7ff-a2dc311aba95> a skos:Concept ;
-    skos:broader <allg/4443edfe-772e-4298-8cea-772b1570058f> ;
-    skos:inScheme <> ;
-    skos:notation "K3.1.3" ;
-    skos:prefLabel "Resultate am Kontext prüfen"@de .
-
-<allg/9ff8189b-c360-46d4-9643-3935c0485e3e> a skos:Concept ;
-    skos:broader <allg/ceba5571-ac1c-47a4-a624-b09db23256be> ;
-    skos:inScheme <> ;
-    skos:notation "K4.3.1" ;
-    skos:prefLabel "eigene Darstellungen entwickeln"@de .
-
-<allg/a2bfc39c-f49a-4373-8370-5a1c30c113ac> a skos:Concept ;
-    skos:broader <allg/bac17183-6378-4a54-8763-2837c90bbe32> ;
-    skos:inScheme <> ;
-    skos:notation "K5.1.1" ;
-    skos:prefLabel "Routineverfahren verwenden"@de .
-
-<allg/a4f2127d-0608-46f4-9424-819c133bc850> a skos:Concept ;
-    skos:broader <allg/8c6e794f-e443-4942-b230-6dd95f41565f> ;
-    skos:inScheme <> ;
-    skos:notation "K1.3.1" ;
-    skos:prefLabel "komplexe Argumentationen erläutern oder entwickeln"@de .
-
-<allg/aca16af0-105f-4f41-bf71-2d8033306f87> a skos:Concept ;
-    skos:broader <allg/bac17183-6378-4a54-8763-2837c90bbe32> ;
-    skos:inScheme <> ;
-    skos:notation "K5.1.2" ;
-    skos:prefLabel "mit vertrauten Formeln und Symbolen umgehen"@de .
-
-<allg/b2900af1-4d97-4cd5-b97d-65962679143a> a skos:Concept ;
-    skos:broader <allg/3dd43f54-4f9d-4406-9ccb-363e635cc6bd> ;
-    skos:inScheme <> ;
-    skos:notation "K4.1.1" ;
-    skos:prefLabel "vertraute und geübte Darstellungen von mathematischen Objekten und Situationen anfertigen oder nutzen"@de .
-
-<allg/b609cd45-d786-4394-84f6-7c33f414af44> a skos:Concept ;
-    skos:broader <allg/834860df-88f9-40ee-b449-12d5d9b3c794> ;
-    skos:inScheme <> ;
-    skos:notation "K1.2.3" ;
-    skos:prefLabel "Ergebnisse bzgl. ihres Anwendungskontextes bewerten"@de .
-
-<allg/bf73c09d-51ed-4f72-90da-4d31d3436297> a skos:Concept ;
-    skos:broader <allg/e1162af2-d8e1-4666-a8ae-f86f7be6f9c0> ;
+<allg/0b8fe149-b940-4c69-8fda-950594d59ef3> a skos:Concept ;
+    skos:broader <allg/df465546-fc59-4a6c-b740-383d90fff80e> ;
     skos:inScheme <> ;
     skos:notation "K5.2.1" ;
     skos:prefLabel "Lösungs- und Kontrollverfahren ausführen"@de .
 
-<allg/c1eed778-2bb4-40b2-9fc7-13fef36e082a> a skos:Concept ;
-    skos:broader <allg/b9ad826e-3f16-46bd-bbbe-62ac10cd9a4f> ;
+<allg/138210cf-05f1-4c11-aeb4-c860dbba6821> a skos:Concept ;
+    skos:broader <allg/d93c9cee-06cf-4334-8282-f61630b3d480> ;
     skos:inScheme <> ;
-    skos:notation "K5.3.1" ;
-    skos:prefLabel "Lösungs- und Kontrollverfahren hinsichtlich ihrer Effizienz bewerten"@de .
+    skos:notation "K1.3.3" ;
+    skos:prefLabel "Fragen stellen, die für die Mathematik charakteristisch sind und Vermutungen begründet äußern"@de .
 
-<allg/ccf06427-edb3-4970-9fac-a89c391e415b> a skos:Concept ;
-    skos:broader <allg/834860df-88f9-40ee-b449-12d5d9b3c794> ;
-    skos:inScheme <> ;
-    skos:notation "K1.2.4" ;
-    skos:prefLabel "Zusammenhänge, Ordnungen und Strukturen erläutern"@de .
-
-<allg/ced83cef-2f4b-4d2e-a8e7-668ee5e0c0dc> a skos:Concept ;
-    skos:broader <allg/4443edfe-772e-4298-8cea-772b1570058f> ;
-    skos:inScheme <> ;
-    skos:notation "K3.1.1" ;
-    skos:prefLabel "vertraute und direkt erkennbare Modelle nutzen"@de .
-
-<allg/ced88d35-c6f7-48ea-a29b-0b09ca55d43d> a skos:Concept ;
-    skos:broader <allg/b9ad826e-3f16-46bd-bbbe-62ac10cd9a4f> ;
-    skos:inScheme <> ;
-    skos:notation "K5.3.2" ;
-    skos:prefLabel "Möglichkeiten und Grenzen der Nutzung mathematischer Werkzeuge reflektieren"@de .
-
-<allg/d187abba-e605-4a09-96f9-58a9da1b63e2> a skos:Concept ;
-    skos:broader <allg/74cc254b-02e2-4436-947c-2439681f7c04> ;
-    skos:inScheme <> ;
-    skos:notation "K2.3.2" ;
-    skos:prefLabel "das Finden von Lösungsideen und die Lösungswege reflektieren"@de .
-
-<allg/d87616a1-b73d-433e-852c-15493f4b1fa2> a skos:Concept ;
-    skos:broader <allg/dfd7d65f-e8dc-44bd-bf72-4d2fcc3dfb03> ;
-    skos:inScheme <> ;
-    skos:notation "K6.3.3" ;
-    skos:prefLabel "Äußerungen von anderen zu mathematischen Inhalten bewerten"@de .
-
-<allg/d92af2a3-34c7-4a8b-98a6-f097a3532890> a skos:Concept ;
-    skos:broader <allg/adaf9afd-65c5-40b3-96da-aec678f8b9fd> ;
-    skos:inScheme <> ;
-    skos:notation "K2.2.3" ;
-    skos:prefLabel "die Plausibilität von Ergebnissen überprüfen"@de .
-
-<allg/d9fee16d-e1ef-418b-9082-91757ca3d892> a skos:Concept ;
-    skos:broader <allg/e1162af2-d8e1-4666-a8ae-f86f7be6f9c0> ;
+<allg/1b4ad1c1-7574-4268-8729-e2eb3298fee2> a skos:Concept ;
+    skos:broader <allg/df465546-fc59-4a6c-b740-383d90fff80e> ;
     skos:inScheme <> ;
     skos:notation "K5.2.4" ;
     skos:prefLabel "mathematische Werkzeuge verständig auswählen und einsetzen"@de .
 
-<allg/e5d4b787-344a-4dbc-8906-196b1d09388a> a skos:Concept ;
-    skos:broader <allg/834860df-88f9-40ee-b449-12d5d9b3c794> ;
+<allg/20cb99b3-ba03-41be-880b-226f7830aabf> a skos:Concept ;
+    skos:broader <allg/2bfe4119-85da-475d-ad84-00100ee96011> ;
     skos:inScheme <> ;
-    skos:notation "K1.2.1" ;
-    skos:prefLabel "überschaubare mehrschrittige Argumentationen erläutern oder entwickeln"@de .
+    skos:notation "K5.1.2" ;
+    skos:prefLabel "mit vertrauten Formeln und Symbolen umgehen"@de .
 
-<allg/ee9fcf80-7c7c-4885-a1a1-9cf1268c909e> a skos:Concept ;
-    skos:broader <allg/dfd7d65f-e8dc-44bd-bf72-4d2fcc3dfb03> ;
-    skos:inScheme <> ;
-    skos:notation "K6.3.1" ;
-    skos:prefLabel "komplexe mathematische Sachverhalte mündlich und schriftlich präsentieren"@de .
-
-<allg/ff078615-2cdc-4854-803d-193e4c7172c4> a skos:Concept ;
-    skos:broader <allg/6d0f8352-6700-4c73-aa69-c29ed8954935> ;
+<allg/24378f8d-8a21-44ab-b8a7-482073584cf4> a skos:Concept ;
+    skos:broader <allg/13c4f25b-1e1d-420b-b59d-061396b198f9> ;
     skos:inScheme <> ;
     skos:notation "K6.1.1" ;
     skos:prefLabel "einfache mathematische Sachverhalte mündlich und schriftlich ausdrücken"@de .
 
-<ie/06f1dff0-103c-4fe7-9a42-d8e05a384939> a skos:Concept ;
-    skos:broader <ie/f672f0f3-aa70-4e14-a85f-0810af86061a> ;
+<allg/2b71fba5-d5f6-431d-a4d6-969cfcee19f1> a skos:Concept ;
+    skos:broader <allg/2bfe4119-85da-475d-ad84-00100ee96011> ;
     skos:inScheme <> ;
-    skos:notation "L3.1.7" ;
-    skos:prefLabel "wenden Sätze der ebenen Geometrie bei Konstruktionen und Berechnungen an, insbesondere den Satz des Pythagoras,"@de .
+    skos:notation "K5.1.3" ;
+    skos:prefLabel "mathematische Werkzeuge (wie Formelsammlungen, Taschenrechner, Software) in Situationen nutzen, in denen ihr Einsatz geübt wurde"@de .
 
-<ie/08f4f215-849d-427f-a5d0-dbb33f0e372c> a skos:Concept ;
-    skos:broader <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
+<allg/2d3fa77d-5980-436d-a7cd-9ef585f52dd0> a skos:Concept ;
+    skos:broader <allg/13c4f25b-1e1d-420b-b59d-061396b198f9> ;
     skos:inScheme <> ;
-    skos:notation "L1.1.6" ;
-    skos:prefLabel "runden Zahlen dem Sachverhalt entsprechend sinnvoll,"@de .
+    skos:notation "K6.1.3" ;
+    skos:prefLabel "auf Fragen und Kritik sachlich und angemessen reagieren"@de .
 
-<ie/1033d16f-ba96-4eee-971f-09252e44e1bb> a skos:Concept ;
-    skos:broader <ie/74ed0653-8b44-4210-93d3-0fc3882d7883> ;
+<allg/2dd6909c-cc6c-44af-a789-22ec802c2072> a skos:Concept ;
+    skos:broader <allg/da2fbd53-4768-49fa-9f5d-97e89bfcf0b3> ;
     skos:inScheme <> ;
-    skos:notation "L2.1.4" ;
-    skos:prefLabel "ermitteln Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren,"@de .
+    skos:notation "K2.2.3" ;
+    skos:prefLabel "die Plausibilität von Ergebnissen überprüfen"@de .
 
-<ie/1ec7a28e-48ca-49ab-91f0-d51eb2e99bd2> a skos:Concept ;
-    skos:broader <ie/f672f0f3-aa70-4e14-a85f-0810af86061a> ;
+<allg/2fd6aa0c-f4ed-4b26-a295-1d245d7ca158> a skos:Concept ;
+    skos:broader <allg/a7c156ab-c2b9-4f4d-a03a-23d465893c67> ;
     skos:inScheme <> ;
-    skos:notation "L3.1.4" ;
-    skos:prefLabel "fertigen Netze, Schrägbilder und Modelle von ausgewählten Körpern an und erkennen Körper aus ihren entsprechenden Darstellungen,"@de .
+    skos:notation "K6.3.1" ;
+    skos:prefLabel "komplexe mathematische Sachverhalte mündlich und schriftlich präsentieren"@de .
 
-<ie/234667dc-8e70-422a-80b0-50e5d63e5184> a skos:Concept ;
-    skos:broader <ie/a08c1c3b-22fa-4046-ad86-720fc20d0e5a> ;
+<allg/490e73ad-5094-4da8-a4e3-e739313761e6> a skos:Concept ;
+    skos:broader <allg/2bfe4119-85da-475d-ad84-00100ee96011> ;
     skos:inScheme <> ;
-    skos:notation "L5.1.6" ;
-    skos:prefLabel "bestimmen Wahrscheinlichkeiten bei einfachen Zufallsexperimenten."@de .
+    skos:notation "K5.1.1" ;
+    skos:prefLabel "Routineverfahren verwenden"@de .
 
-<ie/24d201af-d4b7-4b2d-8d86-6fbf47647548> a skos:Concept ;
-    skos:broader <ie/74ed0653-8b44-4210-93d3-0fc3882d7883> ;
+<allg/4d902591-b151-4942-bb81-3197a33587df> a skos:Concept ;
+    skos:broader <allg/52267cad-b4f1-4673-ad32-d35fa510f291> ;
     skos:inScheme <> ;
-    skos:notation "L2.1.1" ;
-    skos:prefLabel "nutzen das Grundprinzip des Messens, insbesondere bei der Längen-, Flächen- und Volumenmessung, auch in Naturwissenschaften und in anderen Bereichen,"@de .
+    skos:notation "K2.1.2" ;
+    skos:prefLabel "einfache Probleme mit bekannten - auch experimentellen - Verfahren lösen"@de .
 
-<ie/281b93dd-0e48-448b-8989-1d2bbb0b7613> a skos:Concept ;
-    skos:broader <ie/e8f25c0e-7d6d-46db-a548-1020b88f5d92> ;
+<allg/56472d33-d488-4cca-8fa8-05f7d89089b3> a skos:Concept ;
+    skos:broader <allg/042af19d-e164-4cf4-8c26-edf345ebe3b0> ;
     skos:inScheme <> ;
-    skos:notation "L4.1.3" ;
-    skos:prefLabel "unterscheiden proportionale und antiproportionale Zuordnungen in Sachzusammenhängen und stellen damit Berechnungen an,"@de .
+    skos:notation "K1.2.3" ;
+    skos:prefLabel "Ergebnisse bzgl. ihres Anwendungskontextes bewerten"@de .
 
-<ie/287d0bb0-d940-4a3d-822e-838175acefbf> a skos:Concept ;
-    skos:broader <ie/74ed0653-8b44-4210-93d3-0fc3882d7883> ;
+<allg/58ae3d1d-49be-4526-b3da-81812a6077d7> a skos:Concept ;
+    skos:broader <allg/df465546-fc59-4a6c-b740-383d90fff80e> ;
     skos:inScheme <> ;
-    skos:notation "L2.1.2" ;
-    skos:prefLabel "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse, Geld, Länge, Fläche, Volumen und Winkel) und wandeln sie ggf. um,"@de .
+    skos:notation "K5.2.2" ;
+    skos:prefLabel "symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehr"@de .
 
-<ie/2ef361aa-71ed-4864-a113-9ae9c89bc544> a skos:Concept ;
-    skos:broader <ie/e8f25c0e-7d6d-46db-a548-1020b88f5d92> ;
+<allg/597948ba-ce99-4b1a-9d01-8ce92d1106d7> a skos:Concept ;
+    skos:broader <allg/042af19d-e164-4cf4-8c26-edf345ebe3b0> ;
     skos:inScheme <> ;
-    skos:notation "L4.1.4" ;
-    skos:prefLabel "nutzen die Prozentrechnung bei Wachstumsprozessen (beispielsweise bei der Zinsrechnung), auch unter Verwendung eines Tabellenkalkulationsprogramms,"@de .
+    skos:notation "K1.2.4" ;
+    skos:prefLabel "Zusammenhänge, Ordnungen und Strukturen erläutern"@de .
 
-<ie/31240acf-ae78-4213-bbe2-caccea7d63bb> a skos:Concept ;
-    skos:broader <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
+<allg/5f1a175d-a2f7-45cd-916c-0a1a18812a9f> a skos:Concept ;
+    skos:broader <allg/b531c572-51d3-4c6a-8d9e-eb824f56b8ac> ;
     skos:inScheme <> ;
-    skos:notation "L1.1.4" ;
-    skos:prefLabel "nutzen Rechengesetze, auch zum vorteilhaften Rechnen,"@de .
+    skos:notation "K3.2.2" ;
+    skos:prefLabel "Ergebnisse einer Modellierung interpretieren und an der Ausgangssituation prüfen"@de .
 
-<ie/3c50edb3-fb2b-4815-a71e-4222c223d8fe> a skos:Concept ;
-    skos:broader <ie/f672f0f3-aa70-4e14-a85f-0810af86061a> ;
+<allg/65874755-84d8-42e5-ab72-a343e070d329> a skos:Concept ;
+    skos:broader <allg/338b50d1-44a6-4547-a197-83a180d9b930> ;
     skos:inScheme <> ;
-    skos:notation "L3.1.1" ;
-    skos:prefLabel "erkennen und beschreiben geometrische Objekte und Beziehungen in der Umwelt,"@de .
+    skos:notation "K6.2.2" ;
+    skos:prefLabel "komplexe mathematikhaltige Texte, Graphiken und Abbildungen sinnentnehmend erfassen"@de .
 
-<ie/45155e59-9e5b-4ac4-9427-b5e06c277432> a skos:Concept ;
-    skos:broader <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
+<allg/667577bc-b724-48c0-92ca-57adeb2ee388> a skos:Concept ;
+    skos:broader <allg/d93c9cee-06cf-4334-8282-f61630b3d480> ;
     skos:inScheme <> ;
-    skos:notation "L1.1.2" ;
-    skos:prefLabel "stellen Zahlen der Situation angemessen dar, unter anderem in Zehnerpotenzschreibweise,"@de .
+    skos:notation "K1.3.2" ;
+    skos:prefLabel "verschiedene Argumentationen bewerten"@de .
 
-<ie/455f6dd5-db4a-4fd4-a787-ad3ece3369c7> a skos:Concept ;
-    skos:broader <ie/74ed0653-8b44-4210-93d3-0fc3882d7883> ;
+<allg/66be82f8-9db4-43b3-bed4-0fe74cdc3bca> a skos:Concept ;
+    skos:broader <allg/35d19bf0-9fb7-4919-83ca-3af462d828e2> ;
     skos:inScheme <> ;
-    skos:notation "L2.1.5" ;
-    skos:prefLabel "ermitteln Volumen und Oberflächeninhalt von Prisma, Pyramide und Zylinder sowie daraus zusammengesetzten Körpern,"@de .
+    skos:notation "K2.3.1" ;
+    skos:prefLabel "anspruchsvolle Probleme bearbeiten"@de .
 
-<ie/508ce748-caa4-4cff-b2ec-8adeba5e8e3e> a skos:Concept ;
-    skos:broader <ie/a08c1c3b-22fa-4046-ad86-720fc20d0e5a> ;
+<allg/6c0f1ae5-d4c5-497b-a867-30bdf319ecab> a skos:Concept ;
+    skos:broader <allg/df465546-fc59-4a6c-b740-383d90fff80e> ;
     skos:inScheme <> ;
-    skos:notation "L5.1.4" ;
-    skos:prefLabel "beschreiben Zufallserscheinungen in alltäglichen Situationen,"@de .
+    skos:notation "K5.2.3" ;
+    skos:prefLabel "mit Variablen, Termen, Gleichungen, Funktionen, Tabellen und Diagrammen arbeiten"@de .
 
-<ie/5318e69f-a28f-4f42-8bdd-236cdddd57c3> a skos:Concept ;
-    skos:broader <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
+<allg/769be937-5bb8-4ece-b86c-dd001aaa071b> a skos:Concept ;
+    skos:broader <allg/c5dcf40d-10a4-49a3-aecb-c684e8784798> ;
     skos:inScheme <> ;
-    skos:notation "L1.1.9" ;
-    skos:prefLabel "wählen und beschreiben Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen,"@de .
+    skos:notation "K5.3.1" ;
+    skos:prefLabel "Lösungs- und Kontrollverfahren hinsichtlich ihrer Effizienz bewerten"@de .
 
-<ie/55a84da8-51e2-4b50-820e-9c3e49565fe1> a skos:Concept ;
-    skos:broader <ie/f672f0f3-aa70-4e14-a85f-0810af86061a> ;
+<allg/7f8c01db-ebb4-4f00-8ecb-cfa941b1e777> a skos:Concept ;
+    skos:broader <allg/1e903350-6c3a-4fa3-bb1c-11e2f9a0b7c8> ;
     skos:inScheme <> ;
-    skos:notation "L3.1.8" ;
-    skos:prefLabel "zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener Hilfsmittel, wie Zirkel, Lineal, Geodreieck oder dynamische Geometrie-Software."@de .
+    skos:notation "K3.3.2" ;
+    skos:prefLabel "verwendete mathematische Modelle (wie Formeln, Gleichungen, Darstellungen von Zuordnungen, Zeichnungen, strukturierte Darstellungen, Ablaufpläne) reflektieren und kritisch beurteilen"@de .
 
-<ie/57d24bb3-e6b9-4a3b-b525-00b5ccfff7e4> a skos:Concept ;
-    skos:broader <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
+<allg/82404e66-447b-48a0-9732-a624291b1be6> a skos:Concept ;
+    skos:broader <allg/74deeb9f-8802-49de-9942-997930a9c20b> ;
     skos:inScheme <> ;
-    skos:notation "L1.1.7" ;
-    skos:prefLabel "verwenden Prozent- und Zinsrechnung sachgerecht,"@de .
+    skos:notation "K4.3.3" ;
+    skos:prefLabel "nicht vertraute Darstellungen lesen und ihre Aussagekraft beurteilen"@de .
 
-<ie/5b29ef02-6573-42bc-905c-21c6daa0e2ef> a skos:Concept ;
-    skos:broader <ie/a08c1c3b-22fa-4046-ad86-720fc20d0e5a> ;
+<allg/882b8fae-da21-44e8-93f5-18827818d1c5> a skos:Concept ;
+    skos:broader <allg/a7c156ab-c2b9-4f4d-a03a-23d465893c67> ;
+    skos:inScheme <> ;
+    skos:notation "K6.3.3" ;
+    skos:prefLabel "Äußerungen von anderen zu mathematischen Inhalten bewerten"@de .
+
+<allg/8c6a0d0a-df50-4fbf-b81e-b077768dc3e9> a skos:Concept ;
+    skos:broader <allg/e3d04d3b-c308-4548-bccc-e2ad5239f577> ;
+    skos:inScheme <> ;
+    skos:notation "K3.1.3" ;
+    skos:prefLabel "Resultate am Kontext prüfen"@de .
+
+<allg/8cc34f4b-e33c-4e1c-9026-70f707ab0059> a skos:Concept ;
+    skos:broader <allg/e3d04d3b-c308-4548-bccc-e2ad5239f577> ;
+    skos:inScheme <> ;
+    skos:notation "K3.1.2" ;
+    skos:prefLabel "einfachen Erscheinungen aus der Erfahrungswelt mathematische Objekte zuordnen"@de .
+
+<allg/8fa66206-2d62-45e4-9833-6bfa22689226> a skos:Concept ;
+    skos:broader <allg/74deeb9f-8802-49de-9942-997930a9c20b> ;
+    skos:inScheme <> ;
+    skos:notation "K4.3.2" ;
+    skos:prefLabel "verschiedene Formen der Darstellung zweckentsprechend beurteilen"@de .
+
+<allg/8fdffbb0-0026-4485-84d6-9977badc4877> a skos:Concept ;
+    skos:broader <allg/699b9014-bce9-400a-a74f-c3bff8c446c3> ;
+    skos:inScheme <> ;
+    skos:notation "K1.1.1" ;
+    skos:prefLabel "Routineargumentationen wiedergeben (wie Rechnungen, Verfahren, Herleitungen, Sätze, die aus dem Unterricht vertraut sind)"@de .
+
+<allg/943a1867-3d2a-4b92-920f-35bffd35ccda> a skos:Concept ;
+    skos:broader <allg/13c4f25b-1e1d-420b-b59d-061396b198f9> ;
+    skos:inScheme <> ;
+    skos:notation "K6.1.2" ;
+    skos:prefLabel "aus kurzen, einfachen mathematikhaltigen Texten, Graphiken und Abbildungen Informationen entnehmen"@de .
+
+<allg/9ce78720-59f2-4bd8-84b4-8313f5387f07> a skos:Concept ;
+    skos:broader <allg/338b50d1-44a6-4547-a197-83a180d9b930> ;
+    skos:inScheme <> ;
+    skos:notation "K6.2.5" ;
+    skos:prefLabel "mit Fehlern konstruktiv umgehen"@de .
+
+<allg/9d2f6254-d6c7-40a0-974b-afa274237399> a skos:Concept ;
+    skos:broader <allg/042af19d-e164-4cf4-8c26-edf345ebe3b0> ;
+    skos:inScheme <> ;
+    skos:notation "K1.2.1" ;
+    skos:prefLabel "überschaubare mehrschrittige Argumentationen erläutern oder entwickeln"@de .
+
+<allg/9f61cfd8-dc9f-4cd8-9169-4eedb1a3e46d> a skos:Concept ;
+    skos:broader <allg/b531c572-51d3-4c6a-8d9e-eb824f56b8ac> ;
+    skos:inScheme <> ;
+    skos:notation "K3.2.3" ;
+    skos:prefLabel "einem mathematischen Modell passende Situationen zuordnen"@de .
+
+<allg/a132a2a9-bbe4-4855-b763-3e14dc6afb66> a skos:Concept ;
+    skos:broader <allg/e3d04d3b-c308-4548-bccc-e2ad5239f577> ;
+    skos:inScheme <> ;
+    skos:notation "K3.1.1" ;
+    skos:prefLabel "vertraute und direkt erkennbare Modelle nutzen"@de .
+
+<allg/aec28da5-e3fb-46eb-8c17-ab39d870a838> a skos:Concept ;
+    skos:broader <allg/d93c9cee-06cf-4334-8282-f61630b3d480> ;
+    skos:inScheme <> ;
+    skos:notation "K1.3.1" ;
+    skos:prefLabel "komplexe Argumentationen erläutern oder entwickeln"@de .
+
+<allg/b4b77106-4389-4945-895f-7628ba5e919f> a skos:Concept ;
+    skos:broader <allg/338b50d1-44a6-4547-a197-83a180d9b930> ;
+    skos:inScheme <> ;
+    skos:notation "K6.2.4" ;
+    skos:prefLabel "auf Äußerungen von anderen zu mathematischen Inhalten eingehen"@de .
+
+<allg/b6e37683-b1ae-4a78-98b7-86eb32e626c0> a skos:Concept ;
+    skos:broader <allg/35d19bf0-9fb7-4919-83ca-3af462d828e2> ;
+    skos:inScheme <> ;
+    skos:notation "K2.3.2" ;
+    skos:prefLabel "das Finden von Lösungsideen und die Lösungswege reflektieren"@de .
+
+<allg/b9d72d19-5486-4d43-aae3-46e8c496e3f0> a skos:Concept ;
+    skos:broader <allg/da2fbd53-4768-49fa-9f5d-97e89bfcf0b3> ;
+    skos:inScheme <> ;
+    skos:notation "K2.2.2" ;
+    skos:prefLabel "Probleme selbst formulieren"@de .
+
+<allg/c27a0456-a78b-441e-abf9-b9f3b17c5407> a skos:Concept ;
+    skos:broader <allg/042af19d-e164-4cf4-8c26-edf345ebe3b0> ;
+    skos:inScheme <> ;
+    skos:notation "K1.2.2" ;
+    skos:prefLabel "einen Lösungsweg beschreiben und begründen"@de .
+
+<allg/c55b77f5-8e2d-4666-8404-0a0d443a3666> a skos:Concept ;
+    skos:broader <allg/338b50d1-44a6-4547-a197-83a180d9b930> ;
+    skos:inScheme <> ;
+    skos:notation "K6.2.1" ;
+    skos:prefLabel "Überlegungen, Lösungswege bzw. Ergebnisse verständlich darstellen"@de .
+
+<allg/c8a6d7d9-3c0a-427d-9639-75a555c73420> a skos:Concept ;
+    skos:broader <allg/a7c156ab-c2b9-4f4d-a03a-23d465893c67> ;
+    skos:inScheme <> ;
+    skos:notation "K6.3.2" ;
+    skos:prefLabel "komplexe mathematische Texte sinnentnehmend erfassen"@de .
+
+<allg/d0354c9f-a07d-43c1-9980-23b42604a01e> a skos:Concept ;
+    skos:broader <allg/74deeb9f-8802-49de-9942-997930a9c20b> ;
+    skos:inScheme <> ;
+    skos:notation "K4.3.1" ;
+    skos:prefLabel "eigene Darstellungen entwickeln"@de .
+
+<allg/d364048c-dd0d-4973-86b7-3a542b885dd6> a skos:Concept ;
+    skos:broader <allg/338b50d1-44a6-4547-a197-83a180d9b930> ;
+    skos:inScheme <> ;
+    skos:notation "K6.2.3" ;
+    skos:prefLabel "die Fachsprache adressatengerecht verwenden"@de .
+
+<allg/d5b7948a-6979-459c-b2ad-f15e12f1eb3e> a skos:Concept ;
+    skos:broader <allg/9f1cda1c-34ca-4f75-898b-ebffb2767c09> ;
+    skos:inScheme <> ;
+    skos:notation "K4.1.1" ;
+    skos:prefLabel "vertraute und geübte Darstellungen von mathematischen Objekten und Situationen anfertigen oder nutzen"@de .
+
+<allg/e2a3db49-175b-45eb-9d90-8fe9e53181c1> a skos:Concept ;
+    skos:broader <allg/da2fbd53-4768-49fa-9f5d-97e89bfcf0b3> ;
+    skos:inScheme <> ;
+    skos:notation "K2.2.1" ;
+    skos:prefLabel "Probleme bearbeiten,deren Lösung die Anwendung von heuristischen Hilfsmitteln, Strategien und Prinzipien erfordert"@de .
+
+<allg/e77bc36d-3279-48f2-a97c-32293ec5535c> a skos:Concept ;
+    skos:broader <allg/699b9014-bce9-400a-a74f-c3bff8c446c3> ;
+    skos:inScheme <> ;
+    skos:notation "K1.1.2" ;
+    skos:prefLabel "mit Alltagswissen argumentieren"@de .
+
+<allg/ea49fce6-a2e2-4757-a9c6-6fc7e414ea4e> a skos:Concept ;
+    skos:broader <allg/a8248d3b-8098-4c4f-86f6-8a52cd253c3b> ;
+    skos:inScheme <> ;
+    skos:notation "K4.2.1" ;
+    skos:prefLabel "Beziehungen zwischen Darstellungsformen erkennen und zwischen den Darstellungsformen wechseln"@de .
+
+<allg/ed0b9f6c-47e1-4213-871b-13cf93246830> a skos:Concept ;
+    skos:broader <allg/c5dcf40d-10a4-49a3-aecb-c684e8784798> ;
+    skos:inScheme <> ;
+    skos:notation "K5.3.2" ;
+    skos:prefLabel "Möglichkeiten und Grenzen der Nutzung mathematischer Werkzeuge reflektieren"@de .
+
+<allg/f6eeda29-587c-48d0-9429-7eea85327757> a skos:Concept ;
+    skos:broader <allg/b531c572-51d3-4c6a-8d9e-eb824f56b8ac> ;
+    skos:inScheme <> ;
+    skos:notation "K3.2.1" ;
+    skos:prefLabel "Modellierungen, die mehrere Schritte erfordern, vornehmen"@de .
+
+<allg/f8d3139b-938c-4e1e-8ae3-eb23dc5156f6> a skos:Concept ;
+    skos:broader <allg/1e903350-6c3a-4fa3-bb1c-11e2f9a0b7c8> ;
+    skos:inScheme <> ;
+    skos:notation "K3.3.1" ;
+    skos:prefLabel "komplexe oder unvertraute Situationen modellieren"@de .
+
+<allg/fc7efecf-7640-40a9-8d26-146f1cd3b0ad> a skos:Concept ;
+    skos:broader <allg/52267cad-b4f1-4673-ad32-d35fa510f291> ;
+    skos:inScheme <> ;
+    skos:notation "K2.1.1" ;
+    skos:prefLabel "Routineaufgaben lösen („sich zu helfen wissen“)"@de .
+
+<ie/036faf9d-97d7-4dd8-810b-3d0df719fc65> a skos:Concept ;
+    skos:broader <ie/2f192116-ae4e-4f62-81db-b7d6590f1a2d> ;
     skos:inScheme <> ;
     skos:notation "L5.1.2" ;
     skos:prefLabel "sammeln systematisch Daten, erfassen sie in Tabellen und stellen sie graphisch dar, auch unter Verwendung geeigneter Hilfsmittel wie Software,"@de .
 
-<ie/61d0191c-8e64-46f2-a60f-031e804372ad> a skos:Concept ;
-    skos:broader <ie/e8f25c0e-7d6d-46db-a548-1020b88f5d92> ;
-    skos:inScheme <> ;
-    skos:notation "L4.1.7" ;
-    skos:prefLabel "vergleichen ihr Vorgehen beim Lösen einfacher linearer Gleichungen mit anderen Lösungsverfahren (wie inhaltlichem Lösen oder systematischem Probieren)."@de .
-
-<ie/68e88fb9-86b5-414c-937e-84db59d9e0b4> a skos:Concept ;
-    skos:broader <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
-    skos:inScheme <> ;
-    skos:notation "L1.1.1" ;
-    skos:prefLabel "nutzen sinntragende Vorstellungen von rationalen Zahlen, insbesondere von natürlichen, ganzen und gebrochenen Zahlen entsprechend der Verwendungsnotwendigkeit,"@de .
-
-<ie/83a10ced-d270-46db-8c76-e2b265869670> a skos:Concept ;
-    skos:broader <ie/f672f0f3-aa70-4e14-a85f-0810af86061a> ;
-    skos:inScheme <> ;
-    skos:notation "L3.1.5" ;
-    skos:prefLabel "klassifizieren Winkel, Dreiecke, Vierecke und Körper,"@de .
-
-<ie/9cf77307-9c33-4995-8fac-5f9033271e3e> a skos:Concept ;
-    skos:broader <ie/f672f0f3-aa70-4e14-a85f-0810af86061a> ;
-    skos:inScheme <> ;
-    skos:notation "L3.1.6" ;
-    skos:prefLabel "erkennen und erzeugen Symmetrien,"@de .
-
-<ie/9dc0816b-65e6-40cf-84bf-c4409a6c32d1> a skos:Concept ;
-    skos:broader <ie/e8f25c0e-7d6d-46db-a548-1020b88f5d92> ;
-    skos:inScheme <> ;
-    skos:notation "L4.1.6" ;
-    skos:prefLabel "lösen einfache lineare Gleichungen,"@de .
-
-<ie/a18ff6a6-fa30-40ad-aadc-3104171ec0bc> a skos:Concept ;
-    skos:broader <ie/e8f25c0e-7d6d-46db-a548-1020b88f5d92> ;
-    skos:inScheme <> ;
-    skos:notation "L4.1.1" ;
-    skos:prefLabel "beschreiben und interpretieren funktionale Zusammenhänge und ihre Darstellungen in Alltagssituationen,"@de .
-
-<ie/a9d35f4c-1634-4e1c-9e08-df36ffcebd23> a skos:Concept ;
-    skos:broader <ie/f672f0f3-aa70-4e14-a85f-0810af86061a> ;
-    skos:inScheme <> ;
-    skos:notation "L3.1.2" ;
-    skos:prefLabel "operieren gedanklich mit Strecken, Flächen und Körpern,"@de .
-
-<ie/abbe5e9b-b415-4ae5-b2d5-c6e9f5ff9988> a skos:Concept ;
-    skos:broader <ie/e8f25c0e-7d6d-46db-a548-1020b88f5d92> ;
-    skos:inScheme <> ;
-    skos:notation "L4.1.2" ;
-    skos:prefLabel "verwenden für funktionale Zusammenhänge unterschiedliche Darstellungsformen,"@de .
-
-<ie/b451b5a4-4545-4a4c-9471-25121fcca620> a skos:Concept ;
-    skos:broader <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
-    skos:inScheme <> ;
-    skos:notation "L1.1.3" ;
-    skos:prefLabel "rechnen mit natürlichen, gebrochenen und negativen Zahlen, die im täglichen Leben vorkommen, auch im Kopf,"@de .
-
-<ie/b8964a6d-2953-4e69-9925-95086bb5b3c3> a skos:Concept ;
-    skos:broader <ie/a08c1c3b-22fa-4046-ad86-720fc20d0e5a> ;
-    skos:inScheme <> ;
-    skos:notation "L5.1.1" ;
-    skos:prefLabel "werten graphische Darstellungen und Tabellen von statistischen Erhebungen aus,"@de .
-
-<ie/babe5977-a595-4bdb-8e5f-27990be63ec0> a skos:Concept ;
-    skos:broader <ie/f672f0f3-aa70-4e14-a85f-0810af86061a> ;
-    skos:inScheme <> ;
-    skos:notation "L3.1.3" ;
-    skos:prefLabel "stellen geometrische Figuren und elementare geometrische Abbildungen im ebenen kartesischen Koordinatensystem dar,"@de .
-
-<ie/c7beb36d-d028-4ee8-ad9d-80617046c11f> a skos:Concept ;
-    skos:broader <ie/a08c1c3b-22fa-4046-ad86-720fc20d0e5a> ;
-    skos:inScheme <> ;
-    skos:notation "L5.1.3" ;
-    skos:prefLabel "berechnen und interpretieren Häufigkeiten und Mittelwerte,"@de .
-
-<ie/cb517f70-f222-4ed5-b8d7-5095cc773bbc> a skos:Concept ;
-    skos:broader <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
-    skos:inScheme <> ;
-    skos:notation "L1.1.8" ;
-    skos:prefLabel "erläutern an Beispielen den Zusammenhang zwischen Rechenoperationen und deren Umkehrungen und nutzen diese Zusammenhänge,"@de .
-
-<ie/d719ef1a-ba85-4ba2-be26-04b0ea66be40> a skos:Concept ;
-    skos:broader <ie/74ed0653-8b44-4210-93d3-0fc3882d7883> ;
-    skos:inScheme <> ;
-    skos:notation "L2.1.3" ;
-    skos:prefLabel "schätzen Größen mit Hilfe von Vorstellungen über alltagsbezogene Repräsentanten,"@de .
-
-<ie/d7cb539c-e15d-4a4b-8167-4cb3fcc73ad7> a skos:Concept ;
-    skos:broader <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
-    skos:inScheme <> ;
-    skos:notation "L1.1.5" ;
-    skos:prefLabel "nutzen Überschlagsrechnungen,"@de .
-
-<ie/e1dd14c2-e37b-4040-9019-978de5f9c5f8> a skos:Concept ;
-    skos:broader <ie/e8f25c0e-7d6d-46db-a548-1020b88f5d92> ;
-    skos:inScheme <> ;
-    skos:notation "L4.1.5" ;
-    skos:prefLabel "nutzen Maßstäbe beim Lesen und Anfertigen von Zeichnungen situationsgerecht,"@de .
-
-<ie/edf7b1eb-ae36-4445-ba12-e40a134a9fa6> a skos:Concept ;
-    skos:broader <ie/a08c1c3b-22fa-4046-ad86-720fc20d0e5a> ;
-    skos:inScheme <> ;
-    skos:notation "L5.1.5" ;
-    skos:prefLabel "interpretieren Wahrscheinlichkeitsaussagen aus dem Alltag,"@de .
-
-<ie/fafba1b7-f18e-45eb-9462-496d2ec78ae8> a skos:Concept ;
-    skos:broader <ie/74ed0653-8b44-4210-93d3-0fc3882d7883> ;
+<ie/0a45ead3-3c7c-44b7-870b-722449c94e11> a skos:Concept ;
+    skos:broader <ie/f5ceaa35-aad3-4b45-8ef4-9a34af6892aa> ;
     skos:inScheme <> ;
     skos:notation "L2.1.6" ;
     skos:prefLabel "nehmen in ihrer Umwelt gezielt Messungen vor oder entnehmen Maßangaben aus Quellenmaterial, führen damit Berechnungen durch und bewerten die Ergebnisse sowie den gewählten Weg in Bezug auf die Sachsituation."@de .
 
-<ie/fb06ea35-7a25-438d-9bdd-c8745b240543> a skos:Concept ;
-    skos:broader <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
+<ie/104edab5-8af8-436f-bbc9-f32a0177f5f2> a skos:Concept ;
+    skos:broader <ie/2f192116-ae4e-4f62-81db-b7d6590f1a2d> ;
+    skos:inScheme <> ;
+    skos:notation "L5.1.3" ;
+    skos:prefLabel "berechnen und interpretieren Häufigkeiten und Mittelwerte,"@de .
+
+<ie/2b691438-d718-443f-9726-9a473b777d0c> a skos:Concept ;
+    skos:broader <ie/d2b7e387-67da-4bc1-9012-197a7ef9d342> ;
+    skos:inScheme <> ;
+    skos:notation "L3.1.8" ;
+    skos:prefLabel "zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener Hilfsmittel, wie Zirkel, Lineal, Geodreieck oder dynamische Geometrie-Software."@de .
+
+<ie/337f52e1-3bbc-4192-ab12-22fff343bc93> a skos:Concept ;
+    skos:broader <ie/04cf572c-6f96-4fad-8647-93630b5ca165> ;
+    skos:inScheme <> ;
+    skos:notation "L4.1.1" ;
+    skos:prefLabel "beschreiben und interpretieren funktionale Zusammenhänge und ihre Darstellungen in Alltagssituationen,"@de .
+
+<ie/3c304af2-5d70-4ec0-95fc-55e57cd45684> a skos:Concept ;
+    skos:broader <ie/04cf572c-6f96-4fad-8647-93630b5ca165> ;
+    skos:inScheme <> ;
+    skos:notation "L4.1.5" ;
+    skos:prefLabel "nutzen Maßstäbe beim Lesen und Anfertigen von Zeichnungen situationsgerecht,"@de .
+
+<ie/3f1ba916-3760-4891-9334-7619e9236068> a skos:Concept ;
+    skos:broader <ie/d2b7e387-67da-4bc1-9012-197a7ef9d342> ;
+    skos:inScheme <> ;
+    skos:notation "L3.1.1" ;
+    skos:prefLabel "erkennen und beschreiben geometrische Objekte und Beziehungen in der Umwelt,"@de .
+
+<ie/3f6a8093-4f46-49af-97ec-a571bcdae47a> a skos:Concept ;
+    skos:broader <ie/d2b7e387-67da-4bc1-9012-197a7ef9d342> ;
+    skos:inScheme <> ;
+    skos:notation "L3.1.3" ;
+    skos:prefLabel "stellen geometrische Figuren und elementare geometrische Abbildungen im ebenen kartesischen Koordinatensystem dar,"@de .
+
+<ie/41e4f9b2-a167-489f-b0c3-3902c1b7c04a> a skos:Concept ;
+    skos:broader <ie/04cf572c-6f96-4fad-8647-93630b5ca165> ;
+    skos:inScheme <> ;
+    skos:notation "L4.1.6" ;
+    skos:prefLabel "lösen einfache lineare Gleichungen,"@de .
+
+<ie/4bd554a0-772f-4824-9ce3-d81f8bc18386> a skos:Concept ;
+    skos:broader <ie/04cf572c-6f96-4fad-8647-93630b5ca165> ;
+    skos:inScheme <> ;
+    skos:notation "L4.1.7" ;
+    skos:prefLabel "vergleichen ihr Vorgehen beim Lösen einfacher linearer Gleichungen mit anderen Lösungsverfahren (wie inhaltlichem Lösen oder systematischem Probieren)."@de .
+
+<ie/5a3fa442-8385-4b29-97d7-90e0a5734ddb> a skos:Concept ;
+    skos:broader <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
+    skos:inScheme <> ;
+    skos:notation "L1.1.8" ;
+    skos:prefLabel "erläutern an Beispielen den Zusammenhang zwischen Rechenoperationen und deren Umkehrungen und nutzen diese Zusammenhänge,"@de .
+
+<ie/5a61a10c-154c-48b4-8d90-1f43f562e441> a skos:Concept ;
+    skos:broader <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
     skos:inScheme <> ;
     skos:notation "L1.1.10" ;
     skos:prefLabel "prüfen und interpretieren Ergebnisse in Sachsituationen."@de .
 
-<im/0323aa41-da08-4691-835c-9f28edea4d8f> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
+<ie/61d73dba-d014-4504-a691-5095e428daec> a skos:Concept ;
+    skos:broader <ie/d2b7e387-67da-4bc1-9012-197a7ef9d342> ;
     skos:inScheme <> ;
-    skos:notation "l4.1.8" ;
-    skos:prefLabel "bestimmen kennzeichnende Merkmale von Funktionen und stellen Beziehungen zwischen Funktionsterm und Graph her,"@de .
+    skos:notation "L3.1.7" ;
+    skos:prefLabel "wenden Sätze der ebenen Geometrie bei Konstruktionen und Berechnungen an, insbesondere den Satz des Pythagoras,"@de .
 
-<im/061b262c-82ee-4776-8c03-c684b9314f2b> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
+<ie/6ca94eca-fdda-417f-be1b-76551c3f1731> a skos:Concept ;
+    skos:broader <ie/d2b7e387-67da-4bc1-9012-197a7ef9d342> ;
     skos:inScheme <> ;
-    skos:notation "l1.1.10" ;
-    skos:prefLabel "führen in konkreten Situationen kombinatorische Überlegungen durch, um die Anzahl der jeweiligen Möglichkeiten zu bestimmen,"@de .
+    skos:notation "L3.1.2" ;
+    skos:prefLabel "operieren gedanklich mit Strecken, Flächen und Körpern,"@de .
 
-<im/0b60deb1-9e2b-4872-999d-b9a225da7222> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
+<ie/7415d7e4-16f6-4e01-8088-0d41b8c67efd> a skos:Concept ;
+    skos:broader <ie/d2b7e387-67da-4bc1-9012-197a7ef9d342> ;
     skos:inScheme <> ;
-    skos:notation "l1.1.5" ;
-    skos:prefLabel "nutzen zur Kontrolle Überschlagsrechnungen und andere Verfahren,"@de .
+    skos:notation "L3.1.5" ;
+    skos:prefLabel "klassifizieren Winkel, Dreiecke, Vierecke und Körper,"@de .
 
-<im/0ba407e6-bdbe-40f2-b436-fefa01b91691> a skos:Concept ;
-    skos:broader <im/76f04b4e-b809-47a5-a978-fda08a7a4f83> ;
+<ie/7f6f1562-f8a1-434d-b0f7-7b0df29eb5e7> a skos:Concept ;
+    skos:broader <ie/04cf572c-6f96-4fad-8647-93630b5ca165> ;
     skos:inScheme <> ;
-    skos:notation "l5.1.7" ;
-    skos:prefLabel "bestimmen Wahrscheinlichkeiten bei Zufallsexperimenten."@de .
+    skos:notation "L4.1.2" ;
+    skos:prefLabel "verwenden für funktionale Zusammenhänge unterschiedliche Darstellungsformen,"@de .
 
-<im/12230bb5-d06a-42c6-9357-ec179ce0aae9> a skos:Concept ;
-    skos:broader <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
+<ie/8203f69d-3c1d-4fc4-9884-4aa8176a23bd> a skos:Concept ;
+    skos:broader <ie/2f192116-ae4e-4f62-81db-b7d6590f1a2d> ;
     skos:inScheme <> ;
-    skos:notation "l3.1.6" ;
-    skos:prefLabel "beschreiben und begründen Eigenschaften und Beziehungen geometrischer Objekte (wie Symmetrie, Kongruenz, Ähnlichkeit, Lagebeziehungen) und nutzen diese im Rahmen des Problemlösens zur Analyse von Sachzusammenhängen,"@de .
+    skos:notation "L5.1.1" ;
+    skos:prefLabel "werten graphische Darstellungen und Tabellen von statistischen Erhebungen aus,"@de .
 
-<im/1458d772-b950-4d76-9a76-268a7c71c962> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
+<ie/8ed940b4-8176-498c-a831-89bf7e9f5c0e> a skos:Concept ;
+    skos:broader <ie/f5ceaa35-aad3-4b45-8ef4-9a34af6892aa> ;
     skos:inScheme <> ;
-    skos:notation "l1.1.11" ;
-    skos:prefLabel "prüfen und interpretieren Ergebnisse in Sachsituationen unter Einbeziehung einer kritischen Einschätzung des gewählten Modells und seiner Bearbeitung."@de .
+    skos:notation "L2.1.5" ;
+    skos:prefLabel "ermitteln Volumen und Oberflächeninhalt von Prisma, Pyramide und Zylinder sowie daraus zusammengesetzten Körpern,"@de .
 
-<im/17c8fc62-b7e8-41a0-9190-1d42ec4a6b23> a skos:Concept ;
-    skos:broader <im/984621f2-ba2d-4d60-8ab5-be0e93f62850> ;
+<ie/931d2921-906c-4dbb-8575-95174ef1f06d> a skos:Concept ;
+    skos:broader <ie/d2b7e387-67da-4bc1-9012-197a7ef9d342> ;
     skos:inScheme <> ;
-    skos:notation "l2.1.3" ;
-    skos:prefLabel "schätzen Größen mit Hilfe von Vorstellungen über geeignete Repräsentanten,"@de .
+    skos:notation "L3.1.6" ;
+    skos:prefLabel "erkennen und erzeugen Symmetrien,"@de .
 
-<im/1edef3f8-b60f-44f9-9df5-6bd98d4d58df> a skos:Concept ;
-    skos:broader <im/76f04b4e-b809-47a5-a978-fda08a7a4f83> ;
+<ie/99db50bb-0741-48b7-815a-04e9b686d22c> a skos:Concept ;
+    skos:broader <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
     skos:inScheme <> ;
-    skos:notation "l5.1.2" ;
-    skos:prefLabel "planen statistische Erhebungen,"@de .
+    skos:notation "L1.1.9" ;
+    skos:prefLabel "wählen und beschreiben Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen,"@de .
 
-<im/20109ada-93f8-49f0-ba7d-97bb8c55e91c> a skos:Concept ;
-    skos:broader <im/76f04b4e-b809-47a5-a978-fda08a7a4f83> ;
+<ie/99dfad0b-41cc-4c58-8cc6-79d63200d95c> a skos:Concept ;
+    skos:broader <ie/f5ceaa35-aad3-4b45-8ef4-9a34af6892aa> ;
     skos:inScheme <> ;
-    skos:notation "l5.1.4" ;
-    skos:prefLabel "interpretieren Daten unter Verwendung von Kenngrößen,"@de .
+    skos:notation "L2.1.3" ;
+    skos:prefLabel "schätzen Größen mit Hilfe von Vorstellungen über alltagsbezogene Repräsentanten,"@de .
 
-<im/2b946345-64d7-4c5a-9641-d366aee32897> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
+<ie/9b206b9e-dc76-4b45-81b3-fe4faf33b4c8> a skos:Concept ;
+    skos:broader <ie/f5ceaa35-aad3-4b45-8ef4-9a34af6892aa> ;
     skos:inScheme <> ;
-    skos:notation "l4.1.9" ;
-    skos:prefLabel "wenden insbesondere lineare und quadratische Funktionen sowie Exponentialfunktionen bei der Beschreibung und Bearbeitung von Problemen an,"@de .
+    skos:notation "L2.1.2" ;
+    skos:prefLabel "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse, Geld, Länge, Fläche, Volumen und Winkel) und wandeln sie ggf. um,"@de .
 
-<im/30d6f380-af86-4920-a040-c9638e897ede> a skos:Concept ;
-    skos:broader <im/76f04b4e-b809-47a5-a978-fda08a7a4f83> ;
+<ie/9efab11f-4bb0-4a45-9c55-7abc73e39aad> a skos:Concept ;
+    skos:broader <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
+    skos:inScheme <> ;
+    skos:notation "L1.1.5" ;
+    skos:prefLabel "nutzen Überschlagsrechnungen,"@de .
+
+<ie/adbafc60-f273-448a-ab78-6df7a507d615> a skos:Concept ;
+    skos:broader <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
+    skos:inScheme <> ;
+    skos:notation "L1.1.4" ;
+    skos:prefLabel "nutzen Rechengesetze, auch zum vorteilhaften Rechnen,"@de .
+
+<ie/b9bded70-0322-41e1-8bac-c738012436cb> a skos:Concept ;
+    skos:broader <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
+    skos:inScheme <> ;
+    skos:notation "L1.1.7" ;
+    skos:prefLabel "verwenden Prozent- und Zinsrechnung sachgerecht,"@de .
+
+<ie/cea3d514-f94d-411b-ac8a-2ece2150d8a6> a skos:Concept ;
+    skos:broader <ie/f5ceaa35-aad3-4b45-8ef4-9a34af6892aa> ;
+    skos:inScheme <> ;
+    skos:notation "L2.1.1" ;
+    skos:prefLabel "nutzen das Grundprinzip des Messens, insbesondere bei der Längen-, Flächen- und Volumenmessung, auch in Naturwissenschaften und in anderen Bereichen,"@de .
+
+<ie/d5908d53-ec3e-41d3-9a70-fffcbcbca242> a skos:Concept ;
+    skos:broader <ie/04cf572c-6f96-4fad-8647-93630b5ca165> ;
+    skos:inScheme <> ;
+    skos:notation "L4.1.3" ;
+    skos:prefLabel "unterscheiden proportionale und antiproportionale Zuordnungen in Sachzusammenhängen und stellen damit Berechnungen an,"@de .
+
+<ie/ddc061ba-b5ad-4931-a20c-7bcd247342b7> a skos:Concept ;
+    skos:broader <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
+    skos:inScheme <> ;
+    skos:notation "L1.1.6" ;
+    skos:prefLabel "runden Zahlen dem Sachverhalt entsprechend sinnvoll,"@de .
+
+<ie/defdd263-e47b-4662-b911-aa16efd9c6a3> a skos:Concept ;
+    skos:broader <ie/d2b7e387-67da-4bc1-9012-197a7ef9d342> ;
+    skos:inScheme <> ;
+    skos:notation "L3.1.4" ;
+    skos:prefLabel "fertigen Netze, Schrägbilder und Modelle von ausgewählten Körpern an und erkennen Körper aus ihren entsprechenden Darstellungen,"@de .
+
+<ie/e1286abb-2a9b-4c38-b327-40f13b0a55ed> a skos:Concept ;
+    skos:broader <ie/f5ceaa35-aad3-4b45-8ef4-9a34af6892aa> ;
+    skos:inScheme <> ;
+    skos:notation "L2.1.4" ;
+    skos:prefLabel "ermitteln Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren,"@de .
+
+<ie/e188de7e-f1ff-4c39-9ef0-5b0b2a455a72> a skos:Concept ;
+    skos:broader <ie/04cf572c-6f96-4fad-8647-93630b5ca165> ;
+    skos:inScheme <> ;
+    skos:notation "L4.1.4" ;
+    skos:prefLabel "nutzen die Prozentrechnung bei Wachstumsprozessen (beispielsweise bei der Zinsrechnung), auch unter Verwendung eines Tabellenkalkulationsprogramms,"@de .
+
+<ie/e302b3f3-8add-437f-b815-ebd12dc8fb70> a skos:Concept ;
+    skos:broader <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
+    skos:inScheme <> ;
+    skos:notation "L1.1.3" ;
+    skos:prefLabel "rechnen mit natürlichen, gebrochenen und negativen Zahlen, die im täglichen Leben vorkommen, auch im Kopf,"@de .
+
+<ie/ea13ae95-db2b-4261-a62b-13c54372c9fc> a skos:Concept ;
+    skos:broader <ie/2f192116-ae4e-4f62-81db-b7d6590f1a2d> ;
+    skos:inScheme <> ;
+    skos:notation "L5.1.6" ;
+    skos:prefLabel "bestimmen Wahrscheinlichkeiten bei einfachen Zufallsexperimenten."@de .
+
+<ie/ec4c8ee4-8f2f-427c-a77e-30caa7277e31> a skos:Concept ;
+    skos:broader <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
+    skos:inScheme <> ;
+    skos:notation "L1.1.1" ;
+    skos:prefLabel "nutzen sinntragende Vorstellungen von rationalen Zahlen, insbesondere von natürlichen, ganzen und gebrochenen Zahlen entsprechend der Verwendungsnotwendigkeit,"@de .
+
+<ie/efcd8264-46b8-4c75-b80d-e4becb8c6059> a skos:Concept ;
+    skos:broader <ie/2f192116-ae4e-4f62-81db-b7d6590f1a2d> ;
+    skos:inScheme <> ;
+    skos:notation "L5.1.5" ;
+    skos:prefLabel "interpretieren Wahrscheinlichkeitsaussagen aus dem Alltag,"@de .
+
+<ie/f7408fd5-b96f-4c5b-a106-747ecfcaa5c0> a skos:Concept ;
+    skos:broader <ie/2f192116-ae4e-4f62-81db-b7d6590f1a2d> ;
+    skos:inScheme <> ;
+    skos:notation "L5.1.4" ;
+    skos:prefLabel "beschreiben Zufallserscheinungen in alltäglichen Situationen,"@de .
+
+<ie/f9167a37-4633-40d7-ad74-ac7a69005922> a skos:Concept ;
+    skos:broader <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
+    skos:inScheme <> ;
+    skos:notation "L1.1.2" ;
+    skos:prefLabel "stellen Zahlen der Situation angemessen dar, unter anderem in Zehnerpotenzschreibweise,"@de .
+
+<im/0b64e5bb-5273-4be2-bac8-4e683c611427> a skos:Concept ;
+    skos:broader <im/bcd48394-93e5-470b-a5ba-83d5dc238539> ;
     skos:inScheme <> ;
     skos:notation "l5.1.1" ;
     skos:prefLabel "werten graphische Darstellungen und Tabellen von statistischen Erhebungen aus,"@de .
 
-<im/32472837-f5c2-489b-bb49-f96565831f68> a skos:Concept ;
-    skos:broader <im/984621f2-ba2d-4d60-8ab5-be0e93f62850> ;
-    skos:inScheme <> ;
-    skos:notation "l2.1.1" ;
-    skos:prefLabel "nutzen das Grundprinzip des Messens, insbesondere bei der Längen-, Flächen- und Volumenmessung, auch in Naturwissenschaften und in anderen Bereichen,"@de .
-
-<im/3435b9b7-5f2a-4859-8088-248e5b6e13ec> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
+<im/17d6fa9c-96f6-4afa-ae3b-d39f25e91567> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
     skos:inScheme <> ;
     skos:notation "l1.1.7" ;
     skos:prefLabel "verwenden Prozent- und Zinsrechnung sachgerecht,"@de .
 
-<im/3699b512-e0d6-425e-b3f6-edd58b5df23e> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
+<im/19e3cd5b-1158-421c-9372-692fc315af54> a skos:Concept ;
+    skos:broader <im/bcd48394-93e5-470b-a5ba-83d5dc238539> ;
     skos:inScheme <> ;
-    skos:notation "l1.1.4" ;
-    skos:prefLabel "nutzen Rechengesetze, auch zum vorteilhaften Rechnen,"@de .
+    skos:notation "l5.1.4" ;
+    skos:prefLabel "interpretieren Daten unter Verwendung von Kenngrößen,"@de .
 
-<im/3fd5e630-0994-46ec-bac3-f1088f15a146> a skos:Concept ;
-    skos:broader <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
-    skos:inScheme <> ;
-    skos:notation "l3.1.10" ;
-    skos:prefLabel "setzen geeignete Hilfsmittel beim explorativen Arbeiten und Problemlösen ein."@de .
-
-<im/41376eb3-9002-4599-8d56-997b9353cf3a> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
-    skos:inScheme <> ;
-    skos:notation "l1.1.1" ;
-    skos:prefLabel "nutzen sinntragende Vorstellungen von rationalen Zahlen, insbesondere von natürlichen, ganzen und gebrochenen Zahlen entsprechend der Verwendungsnotwendigkeit,"@de .
-
-<im/4179396b-1e09-49ac-8da1-fa616339ab99> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
-    skos:inScheme <> ;
-    skos:notation "l4.1.4" ;
-    skos:prefLabel "lösen realitätsnahe Probleme im Zusammenhang mit linearen, proportionalen und antiproportionalen Zuordnungen,"@de .
-
-<im/4730c1e4-c107-4bb1-bbcb-8ed208e755a3> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
-    skos:inScheme <> ;
-    skos:notation "l4.1.6" ;
-    skos:prefLabel "lösen Gleichungen, und lineare Gleichungssysteme kalkülmäßig bzw. algorithmisch, auch unter Einsatz geeigneter Software, und vergleichen ggf. die Effektivität ihres Vorgehens mit anderen Lösungsverfahren (wie mit inhaltlichem Lösen oder Lösen durch systematisches Probieren),"@de .
-
-<im/51610857-c7a0-4e7d-a824-bb50d912d752> a skos:Concept ;
-    skos:broader <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
-    skos:inScheme <> ;
-    skos:notation "l3.1.8" ;
-    skos:prefLabel "zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener Hilfsmittel wie Zirkel, Lineal, Geodreieck oder dynamische Geometriesoftware,"@de .
-
-<im/5b8d1aaa-ff92-4947-942a-721d7e4fface> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
-    skos:inScheme <> ;
-    skos:notation "l4.1.12" ;
-    skos:prefLabel "geben zu vorgegebenen Funktionen Sachsituationen an, die mit Hilfe dieser Funktion beschrieben werden können."@de .
-
-<im/631c6b79-c902-476d-b736-5791908c29e0> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
-    skos:inScheme <> ;
-    skos:notation "l1.1.9" ;
-    skos:prefLabel "wählen, beschreiben und bewerten Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen,"@de .
-
-<im/669a9a6d-7531-4c25-8a9a-2c6706ae880d> a skos:Concept ;
-    skos:broader <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
-    skos:inScheme <> ;
-    skos:notation "l3.1.3" ;
-    skos:prefLabel "stellen geometrische Figuren im kartesischen Koordinatensystem dar,"@de .
-
-<im/66ebf048-9722-46e4-872f-27643141eb9c> a skos:Concept ;
-    skos:broader <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
-    skos:inScheme <> ;
-    skos:notation "l3.1.4" ;
-    skos:prefLabel "stellen Körper (z. B. als Netz, Schrägbild oder Modell) dar und erkennen Körper aus ihren entsprechenden Darstellungen,"@de .
-
-<im/72e222d8-bace-4a0a-95db-b497596e5a1a> a skos:Concept ;
-    skos:broader <im/984621f2-ba2d-4d60-8ab5-be0e93f62850> ;
-    skos:inScheme <> ;
-    skos:notation "l2.1.7" ;
-    skos:prefLabel "nehmen in ihrer Umwelt gezielt Messungen vor, entnehmen Maßangaben aus Quellenmaterial, führen damit Berechnungen durch und bewerten die Ergebnisse sowie den gewählten Weg in Bezug auf die Sachsituation."@de .
-
-<im/79158216-1374-4cf1-ac1f-515207c8e5d2> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
-    skos:inScheme <> ;
-    skos:notation "l4.1.11" ;
-    skos:prefLabel "beschreiben Veränderungen von Größen mittels Funktionen, auch unter Verwendung eines Tabellenkalkulationsprogramms,"@de .
-
-<im/7b5e7606-8aa5-4862-915b-6bf83e1122c4> a skos:Concept ;
-    skos:broader <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
-    skos:inScheme <> ;
-    skos:notation "l3.1.5" ;
-    skos:prefLabel "analysieren und klassifizieren geometrische Objekte der Ebene und des Raumes,"@de .
-
-<im/7ef86d6e-4324-4cc7-9136-30ce857a7c5e> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
-    skos:inScheme <> ;
-    skos:notation "l1.1.2" ;
-    skos:prefLabel "stellen Zahlen der Situation angemessen dar, unter anderem in Zehnerpotenzschreibweise,"@de .
-
-<im/807a0dc2-1ece-4a91-a380-a37f74698609> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
-    skos:inScheme <> ;
-    skos:notation "l4.1.1" ;
-    skos:prefLabel "nutzen Funktionen als Mittel zur Beschreibung quantitativer Zusammenhänge,"@de .
-
-<im/8108f377-8df6-487e-b859-96b2f1255dbb> a skos:Concept ;
-    skos:broader <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
-    skos:inScheme <> ;
-    skos:notation "l3.1.1" ;
-    skos:prefLabel "erkennen und beschreiben geometrische Strukturen in der Umwelt,"@de .
-
-<im/84284fad-1247-476a-820c-30028962d651> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
-    skos:inScheme <> ;
-    skos:notation "l4.1.10" ;
-    skos:prefLabel "verwenden die Sinusfunktion zur Beschreibung von periodischen Vorgängen,"@de .
-
-<im/89bd076c-b09b-4c4f-89e8-c09999171c15> a skos:Concept ;
-    skos:broader <im/984621f2-ba2d-4d60-8ab5-be0e93f62850> ;
-    skos:inScheme <> ;
-    skos:notation "l2.1.6" ;
-    skos:prefLabel "berechnen Streckenlängen und Winkelgrößen, auch unter Nutzung von trigonometrischen Beziehungen und Ähnlichkeitsbeziehungen,"@de .
-
-<im/9db60f1e-f4c4-4e40-9aeb-28342e90d5c2> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
-    skos:inScheme <> ;
-    skos:notation "l4.1.5" ;
-    skos:prefLabel "interpretieren lineare Gleichungssysteme graphisch,"@de .
-
-<im/a1596b7f-38e0-425f-adef-e2c9cd5191e4> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
-    skos:inScheme <> ;
-    skos:notation "l1.1.3" ;
-    skos:prefLabel "begründen die Notwendigkeit von Zahlbereichserweiterungen an Beispielen,"@de .
-
-<im/b25a65cb-51db-42a4-b655-89559aee6ac7> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
-    skos:inScheme <> ;
-    skos:notation "l4.1.7" ;
-    skos:prefLabel "untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen und formulieren diesbezüglich Aussagen,"@de .
-
-<im/b3a2acfe-5c6b-4b72-b5f3-c4a3594027f7> a skos:Concept ;
-    skos:broader <im/984621f2-ba2d-4d60-8ab5-be0e93f62850> ;
-    skos:inScheme <> ;
-    skos:notation "l2.1.2" ;
-    skos:prefLabel "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse, Geld, Länge, Fläche, Volumen und Winkel),"@de .
-
-<im/bb198887-d3f5-4d73-8888-f6303b7e1597> a skos:Concept ;
-    skos:broader <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
-    skos:inScheme <> ;
-    skos:notation "l3.1.2" ;
-    skos:prefLabel "operieren gedanklich mit Strecken, Flächen und Körpern,"@de .
-
-<im/c4aa5300-9755-4bf9-990c-c641af38e5b0> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
-    skos:inScheme <> ;
-    skos:notation "l4.1.3" ;
-    skos:prefLabel "analysieren, interpretieren und vergleichen unterschiedliche Darstellungen funktionaler Zusammenhänge (wie lineare, proportionale und antiproportionale),"@de .
-
-<im/c51b65d7-93e0-42f5-b0d9-8773ba26dfd6> a skos:Concept ;
-    skos:broader <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
-    skos:inScheme <> ;
-    skos:notation "l3.1.7" ;
-    skos:prefLabel "wenden Sätze der ebenen Geometrie bei Konstruktionen, Berechnungen und Beweisen an, insbesondere den Satz des Pythagoras und den Satz des Thales,"@de .
-
-<im/d579c309-bb5c-4e5b-af13-1943f8b9a0b7> a skos:Concept ;
-    skos:broader <im/76f04b4e-b809-47a5-a978-fda08a7a4f83> ;
-    skos:inScheme <> ;
-    skos:notation "l5.1.6" ;
-    skos:prefLabel "beschreiben Zufallserscheinungen in alltäglichen Situationen,"@de .
-
-<im/d6cbc2ba-521d-4acd-889f-d68cb4fdd850> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
-    skos:inScheme <> ;
-    skos:notation "l1.1.6" ;
-    skos:prefLabel "runden Rechenergebnisse entsprechend dem Sachverhalt sinnvoll,"@de .
-
-<im/e0313f93-99f9-4890-bfcd-32f624d2c790> a skos:Concept ;
-    skos:broader <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
-    skos:inScheme <> ;
-    skos:notation "l1.1.8" ;
-    skos:prefLabel "erläutern an Beispielen den Zusammenhang zwischen Rechenoperationen und deren Umkehrungen und nutzen diese Zusammenhänge,"@de .
-
-<im/e29665a7-170f-47fd-bf5b-36f0a983efde> a skos:Concept ;
-    skos:broader <im/984621f2-ba2d-4d60-8ab5-be0e93f62850> ;
-    skos:inScheme <> ;
-    skos:notation "l2.1.4" ;
-    skos:prefLabel "berechnen Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren,"@de .
-
-<im/ef6c1160-80f5-4e48-abfa-1106e3ed9e68> a skos:Concept ;
-    skos:broader <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
-    skos:inScheme <> ;
-    skos:notation "l4.1.2" ;
-    skos:prefLabel "erkennen und beschreiben funktionale Zusammenhänge und stellen diese in sprachlicher, tabellarischer oder graphischer Form sowie gegebenenfalls als Term dar,"@de .
-
-<im/f4e6125b-17c0-4823-a1ab-24235d458d90> a skos:Concept ;
-    skos:broader <im/76f04b4e-b809-47a5-a978-fda08a7a4f83> ;
+<im/1d74b550-580e-4a11-8900-8f506e38d849> a skos:Concept ;
+    skos:broader <im/bcd48394-93e5-470b-a5ba-83d5dc238539> ;
     skos:inScheme <> ;
     skos:notation "l5.1.3" ;
     skos:prefLabel "sammeln systematisch Daten, erfassen sie in Tabellen und stellen sie graphisch dar, auch unter Verwendung geeigneter Hilfsmittel (wie Software),"@de .
 
-<im/f64ba473-762f-4ac5-8b61-7c28a509af06> a skos:Concept ;
-    skos:broader <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
+<im/1f88baca-0c5e-4554-a8f6-9cd69edc1119> a skos:Concept ;
+    skos:broader <im/bcd48394-93e5-470b-a5ba-83d5dc238539> ;
     skos:inScheme <> ;
-    skos:notation "l3.1.9" ;
-    skos:prefLabel "untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von Konstruktionsaufgaben und formulieren diesbezüglich Aussagen,"@de .
+    skos:notation "l5.1.6" ;
+    skos:prefLabel "beschreiben Zufallserscheinungen in alltäglichen Situationen,"@de .
 
-<im/fca46894-ef6d-4a78-bbe5-310efab63c34> a skos:Concept ;
-    skos:broader <im/76f04b4e-b809-47a5-a978-fda08a7a4f83> ;
+<im/1fe76539-b6e5-4be8-8372-a36afce98518> a skos:Concept ;
+    skos:broader <im/bcd48394-93e5-470b-a5ba-83d5dc238539> ;
     skos:inScheme <> ;
-    skos:notation "l5.1.5" ;
-    skos:prefLabel "reflektieren und bewerten Argumente, die auf einer Datenanalyse basieren,"@de .
+    skos:notation "l5.1.2" ;
+    skos:prefLabel "planen statistische Erhebungen,"@de .
 
-<im/fdf111e7-549a-4af8-a4b3-e4d9a2912f2a> a skos:Concept ;
-    skos:broader <im/984621f2-ba2d-4d60-8ab5-be0e93f62850> ;
+<im/20744ffd-205a-42dd-8c39-9f4c8c6074ea> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.2" ;
+    skos:prefLabel "erkennen und beschreiben funktionale Zusammenhänge und stellen diese in sprachlicher, tabellarischer oder graphischer Form sowie gegebenenfalls als Term dar,"@de .
+
+<im/221be844-ce23-434a-9626-85f09b8e5ed3> a skos:Concept ;
+    skos:broader <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
+    skos:inScheme <> ;
+    skos:notation "l3.1.2" ;
+    skos:prefLabel "operieren gedanklich mit Strecken, Flächen und Körpern,"@de .
+
+<im/28c2cab0-45ed-40da-85b0-954953d95947> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:inScheme <> ;
+    skos:notation "l1.1.2" ;
+    skos:prefLabel "stellen Zahlen der Situation angemessen dar, unter anderem in Zehnerpotenzschreibweise,"@de .
+
+<im/2cbcebc7-6231-4349-a23b-f2d5ea9ed065> a skos:Concept ;
+    skos:broader <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
+    skos:inScheme <> ;
+    skos:notation "l3.1.7" ;
+    skos:prefLabel "wenden Sätze der ebenen Geometrie bei Konstruktionen, Berechnungen und Beweisen an, insbesondere den Satz des Pythagoras und den Satz des Thales,"@de .
+
+<im/2cf9e669-d0d4-4a2e-9bda-3c8679c369a2> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.7" ;
+    skos:prefLabel "untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen und formulieren diesbezüglich Aussagen,"@de .
+
+<im/34788a00-0b2d-4b7d-b856-1ae436e48d43> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:inScheme <> ;
+    skos:notation "l1.1.8" ;
+    skos:prefLabel "erläutern an Beispielen den Zusammenhang zwischen Rechenoperationen und deren Umkehrungen und nutzen diese Zusammenhänge,"@de .
+
+<im/3f5355bc-73e1-4289-ba57-f2c323c1f3ef> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:inScheme <> ;
+    skos:notation "l1.1.10" ;
+    skos:prefLabel "führen in konkreten Situationen kombinatorische Überlegungen durch, um die Anzahl der jeweiligen Möglichkeiten zu bestimmen,"@de .
+
+<im/443bb26a-bbe8-4c54-bbe1-f627935d5640> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:inScheme <> ;
+    skos:notation "l1.1.1" ;
+    skos:prefLabel "nutzen sinntragende Vorstellungen von rationalen Zahlen, insbesondere von natürlichen, ganzen und gebrochenen Zahlen entsprechend der Verwendungsnotwendigkeit,"@de .
+
+<im/4ada3aa1-738e-4c8c-81c7-a324df5eb064> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.5" ;
+    skos:prefLabel "interpretieren lineare Gleichungssysteme graphisch,"@de .
+
+<im/4d07605e-3e71-4b54-a8a2-1fc94229b230> a skos:Concept ;
+    skos:broader <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
+    skos:inScheme <> ;
+    skos:notation "l3.1.10" ;
+    skos:prefLabel "setzen geeignete Hilfsmittel beim explorativen Arbeiten und Problemlösen ein."@de .
+
+<im/4d466652-b752-4179-ae8a-7db12dcbd1ad> a skos:Concept ;
+    skos:broader <im/a5274310-32df-4333-8b9e-4041db2359af> ;
     skos:inScheme <> ;
     skos:notation "l2.1.5" ;
     skos:prefLabel "berechnen Volumen und Oberflächeninhalt von Prisma, Pyramide, Zylinder, Kegel und Kugel sowie daraus zusammengesetzten Körpern,"@de .
 
-<allg/3dd43f54-4f9d-4406-9ccb-363e635cc6bd> a skos:Concept ;
-    skos:broader <allg/f8f4e0c1-c589-454d-b327-798c08087bc8> ;
+<im/4dafc19e-d73a-4530-9aa3-f46bf65a73b3> a skos:Concept ;
+    skos:broader <im/a5274310-32df-4333-8b9e-4041db2359af> ;
     skos:inScheme <> ;
-    skos:narrower <allg/b2900af1-4d97-4cd5-b97d-65962679143a> ;
+    skos:notation "l2.1.7" ;
+    skos:prefLabel "nehmen in ihrer Umwelt gezielt Messungen vor, entnehmen Maßangaben aus Quellenmaterial, führen damit Berechnungen durch und bewerten die Ergebnisse sowie den gewählten Weg in Bezug auf die Sachsituation."@de .
+
+<im/53147120-2320-434e-a3d3-c4332fc053d4> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.8" ;
+    skos:prefLabel "bestimmen kennzeichnende Merkmale von Funktionen und stellen Beziehungen zwischen Funktionsterm und Graph her,"@de .
+
+<im/567c80d1-8c8d-4bab-ba3c-62f598d712e2> a skos:Concept ;
+    skos:broader <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
+    skos:inScheme <> ;
+    skos:notation "l3.1.5" ;
+    skos:prefLabel "analysieren und klassifizieren geometrische Objekte der Ebene und des Raumes,"@de .
+
+<im/5d6f4d8f-509e-4289-b2ce-2156e665ea5d> a skos:Concept ;
+    skos:broader <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
+    skos:inScheme <> ;
+    skos:notation "l3.1.8" ;
+    skos:prefLabel "zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener Hilfsmittel wie Zirkel, Lineal, Geodreieck oder dynamische Geometriesoftware,"@de .
+
+<im/6b275c31-a8b9-4d6c-9738-de68fadb7f3c> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:inScheme <> ;
+    skos:notation "l1.1.5" ;
+    skos:prefLabel "nutzen zur Kontrolle Überschlagsrechnungen und andere Verfahren,"@de .
+
+<im/717b4c60-da06-4d8b-b44e-ee3b1700db60> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:inScheme <> ;
+    skos:notation "l1.1.9" ;
+    skos:prefLabel "wählen, beschreiben und bewerten Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen,"@de .
+
+<im/79d1d864-d5d0-4fe6-8a00-f0318f219504> a skos:Concept ;
+    skos:broader <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
+    skos:inScheme <> ;
+    skos:notation "l3.1.3" ;
+    skos:prefLabel "stellen geometrische Figuren im kartesischen Koordinatensystem dar,"@de .
+
+<im/7cdc460e-a022-4ddd-923c-dc034f60866a> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:inScheme <> ;
+    skos:notation "l1.1.3" ;
+    skos:prefLabel "begründen die Notwendigkeit von Zahlbereichserweiterungen an Beispielen,"@de .
+
+<im/892a142c-5df2-49a2-a074-5e202cd6303f> a skos:Concept ;
+    skos:broader <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
+    skos:inScheme <> ;
+    skos:notation "l3.1.9" ;
+    skos:prefLabel "untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von Konstruktionsaufgaben und formulieren diesbezüglich Aussagen,"@de .
+
+<im/901879d8-87f7-4365-816c-604e9ab41e80> a skos:Concept ;
+    skos:broader <im/a5274310-32df-4333-8b9e-4041db2359af> ;
+    skos:inScheme <> ;
+    skos:notation "l2.1.2" ;
+    skos:prefLabel "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse, Geld, Länge, Fläche, Volumen und Winkel),"@de .
+
+<im/9419f042-b9e8-4e1d-be85-7aeab621ac23> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.1" ;
+    skos:prefLabel "nutzen Funktionen als Mittel zur Beschreibung quantitativer Zusammenhänge,"@de .
+
+<im/9c6d59a7-5346-46ca-be54-97a0a9a4d117> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.12" ;
+    skos:prefLabel "geben zu vorgegebenen Funktionen Sachsituationen an, die mit Hilfe dieser Funktion beschrieben werden können."@de .
+
+<im/9eb54e96-9a21-414b-bcb2-52b5a2e13fe6> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.10" ;
+    skos:prefLabel "verwenden die Sinusfunktion zur Beschreibung von periodischen Vorgängen,"@de .
+
+<im/9f066cc6-9f98-431d-aab2-46ac7008a8d8> a skos:Concept ;
+    skos:broader <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
+    skos:inScheme <> ;
+    skos:notation "l3.1.1" ;
+    skos:prefLabel "erkennen und beschreiben geometrische Strukturen in der Umwelt,"@de .
+
+<im/a1a9fc12-8812-4295-874d-15afd7a68372> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.11" ;
+    skos:prefLabel "beschreiben Veränderungen von Größen mittels Funktionen, auch unter Verwendung eines Tabellenkalkulationsprogramms,"@de .
+
+<im/a51231f0-544a-472c-9df7-cf246f2325fc> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:inScheme <> ;
+    skos:notation "l1.1.6" ;
+    skos:prefLabel "runden Rechenergebnisse entsprechend dem Sachverhalt sinnvoll,"@de .
+
+<im/ac73ad35-27a8-44bb-b4d9-c4c9cccf9c92> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.4" ;
+    skos:prefLabel "lösen realitätsnahe Probleme im Zusammenhang mit linearen, proportionalen und antiproportionalen Zuordnungen,"@de .
+
+<im/b583a413-55d0-455c-982f-709420c3396a> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.9" ;
+    skos:prefLabel "wenden insbesondere lineare und quadratische Funktionen sowie Exponentialfunktionen bei der Beschreibung und Bearbeitung von Problemen an,"@de .
+
+<im/b7026f12-72f2-406f-a7a2-9bb99b67faf9> a skos:Concept ;
+    skos:broader <im/bcd48394-93e5-470b-a5ba-83d5dc238539> ;
+    skos:inScheme <> ;
+    skos:notation "l5.1.5" ;
+    skos:prefLabel "reflektieren und bewerten Argumente, die auf einer Datenanalyse basieren,"@de .
+
+<im/bf5c2c1b-f570-4d76-a171-bc58eff1eb2f> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:inScheme <> ;
+    skos:notation "l1.1.11" ;
+    skos:prefLabel "prüfen und interpretieren Ergebnisse in Sachsituationen unter Einbeziehung einer kritischen Einschätzung des gewählten Modells und seiner Bearbeitung."@de .
+
+<im/c1d78b6b-afd4-43da-8aed-df7a00fbbdf0> a skos:Concept ;
+    skos:broader <im/a5274310-32df-4333-8b9e-4041db2359af> ;
+    skos:inScheme <> ;
+    skos:notation "l2.1.3" ;
+    skos:prefLabel "schätzen Größen mit Hilfe von Vorstellungen über geeignete Repräsentanten,"@de .
+
+<im/c2518e29-17fc-40c6-8f58-0f606c3ab460> a skos:Concept ;
+    skos:broader <im/a5274310-32df-4333-8b9e-4041db2359af> ;
+    skos:inScheme <> ;
+    skos:notation "l2.1.4" ;
+    skos:prefLabel "berechnen Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren,"@de .
+
+<im/c292bb5c-9f2a-4575-b076-a37b14e7f331> a skos:Concept ;
+    skos:broader <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:inScheme <> ;
+    skos:notation "l1.1.4" ;
+    skos:prefLabel "nutzen Rechengesetze, auch zum vorteilhaften Rechnen,"@de .
+
+<im/c77c764f-bd02-4ae1-93b6-cac2102aa100> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.6" ;
+    skos:prefLabel "lösen Gleichungen, und lineare Gleichungssysteme kalkülmäßig bzw. algorithmisch, auch unter Einsatz geeigneter Software, und vergleichen ggf. die Effektivität ihres Vorgehens mit anderen Lösungsverfahren (wie mit inhaltlichem Lösen oder Lösen durch systematisches Probieren),"@de .
+
+<im/dd6482e0-2672-4a36-b0e3-ad19f783c202> a skos:Concept ;
+    skos:broader <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
+    skos:inScheme <> ;
+    skos:notation "l4.1.3" ;
+    skos:prefLabel "analysieren, interpretieren und vergleichen unterschiedliche Darstellungen funktionaler Zusammenhänge (wie lineare, proportionale und antiproportionale),"@de .
+
+<im/e9ed9021-4f70-4efb-a2cd-866949cae593> a skos:Concept ;
+    skos:broader <im/bcd48394-93e5-470b-a5ba-83d5dc238539> ;
+    skos:inScheme <> ;
+    skos:notation "l5.1.7" ;
+    skos:prefLabel "bestimmen Wahrscheinlichkeiten bei Zufallsexperimenten."@de .
+
+<im/ea73bf6f-9cb0-4469-8c86-7afde7d0408a> a skos:Concept ;
+    skos:broader <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
+    skos:inScheme <> ;
+    skos:notation "l3.1.4" ;
+    skos:prefLabel "stellen Körper (z. B. als Netz, Schrägbild oder Modell) dar und erkennen Körper aus ihren entsprechenden Darstellungen,"@de .
+
+<im/ee4b704d-eb4e-447c-b8c0-3253a460dc89> a skos:Concept ;
+    skos:broader <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
+    skos:inScheme <> ;
+    skos:notation "l3.1.6" ;
+    skos:prefLabel "beschreiben und begründen Eigenschaften und Beziehungen geometrischer Objekte (wie Symmetrie, Kongruenz, Ähnlichkeit, Lagebeziehungen) und nutzen diese im Rahmen des Problemlösens zur Analyse von Sachzusammenhängen,"@de .
+
+<im/f5294395-92b4-4995-b975-276cd123e1fe> a skos:Concept ;
+    skos:broader <im/a5274310-32df-4333-8b9e-4041db2359af> ;
+    skos:inScheme <> ;
+    skos:notation "l2.1.6" ;
+    skos:prefLabel "berechnen Streckenlängen und Winkelgrößen, auch unter Nutzung von trigonometrischen Beziehungen und Ähnlichkeitsbeziehungen,"@de .
+
+<im/fa4e6608-f911-4b1e-aee6-2bbbb3773725> a skos:Concept ;
+    skos:broader <im/a5274310-32df-4333-8b9e-4041db2359af> ;
+    skos:inScheme <> ;
+    skos:notation "l2.1.1" ;
+    skos:prefLabel "nutzen das Grundprinzip des Messens, insbesondere bei der Längen-, Flächen- und Volumenmessung, auch in Naturwissenschaften und in anderen Bereichen,"@de .
+
+<allg/9f1cda1c-34ca-4f75-898b-ebffb2767c09> a skos:Concept ;
+    skos:broader <allg/3581d8ab-95ca-43fc-8dbe-5b050f95e614> ;
+    skos:inScheme <> ;
+    skos:narrower <allg/d5b7948a-6979-459c-b2ad-f15e12f1eb3e> ;
     skos:notation "K4.1" ;
     skos:prefLabel "Reproduzieren"@de .
 
-<allg/9a691109-333e-4869-ac82-bd90da393c44> a skos:Concept ;
-    skos:broader <allg/f8f4e0c1-c589-454d-b327-798c08087bc8> ;
+<allg/a8248d3b-8098-4c4f-86f6-8a52cd253c3b> a skos:Concept ;
+    skos:broader <allg/3581d8ab-95ca-43fc-8dbe-5b050f95e614> ;
     skos:inScheme <> ;
-    skos:narrower <allg/180ee706-a742-4063-8d77-e0cd8c78c53a> ;
+    skos:narrower <allg/ea49fce6-a2e2-4757-a9c6-6fc7e414ea4e> ;
     skos:notation "K4.2" ;
     skos:prefLabel "Zusammenhänge  herstellen"@de .
 
-<ie/11af58a6-158f-4b9e-805a-806f79ae7a29> a skos:Concept ;
+<ie/139af731-c84e-49d5-89ac-16ed5e33f040> a skos:Concept ;
     skos:broader <ie> ;
     skos:inScheme <> ;
-    skos:narrower <ie/38e59c84-7170-4009-88b6-f492e1a19e2c> ;
-    skos:notation "L1" ;
-    skos:prefLabel "Leitidee Zahl"@de .
-
-<ie/1591fad6-e304-4d67-8eb3-8984efa5b2dd> a skos:Concept ;
-    skos:broader <ie> ;
-    skos:inScheme <> ;
-    skos:narrower <ie/74ed0653-8b44-4210-93d3-0fc3882d7883> ;
+    skos:narrower <ie/f5ceaa35-aad3-4b45-8ef4-9a34af6892aa> ;
     skos:notation "L2" ;
     skos:prefLabel "Leitidee Messen"@de .
 
-<ie/8bd19d98-91d1-41fe-9101-19a1db23676d> a skos:Concept ;
+<ie/38519b08-a356-4025-a5f0-96ce1b1ef578> a skos:Concept ;
     skos:broader <ie> ;
     skos:inScheme <> ;
-    skos:narrower <ie/a08c1c3b-22fa-4046-ad86-720fc20d0e5a> ;
+    skos:narrower <ie/2f192116-ae4e-4f62-81db-b7d6590f1a2d> ;
     skos:notation "L5" ;
     skos:prefLabel "Leitidee Daten und Zufall"@de .
 
-<ie/d88b6ef7-c810-4ff6-9694-be7ace97245c> a skos:Concept ;
+<ie/8375b4c1-b007-4c2a-a37b-c267852e69c8> a skos:Concept ;
     skos:broader <ie> ;
     skos:inScheme <> ;
-    skos:narrower <ie/e8f25c0e-7d6d-46db-a548-1020b88f5d92> ;
+    skos:narrower <ie/04cf572c-6f96-4fad-8647-93630b5ca165> ;
     skos:notation "L4" ;
     skos:prefLabel "Leitidee Funktionaler Zusammenhang"@de .
 
-<ie/fa7082a4-2227-4194-97ec-72bfa32933e7> a skos:Concept ;
+<ie/b815e7bf-92a5-499b-bd74-d586bd43e257> a skos:Concept ;
     skos:broader <ie> ;
     skos:inScheme <> ;
-    skos:narrower <ie/f672f0f3-aa70-4e14-a85f-0810af86061a> ;
+    skos:narrower <ie/d2b7e387-67da-4bc1-9012-197a7ef9d342> ;
     skos:notation "L3" ;
     skos:prefLabel "Leitidee Raum und Form"@de .
 
-<im/49cd1889-83c4-4756-be6d-e252ec0034ec> a skos:Concept ;
-    skos:broader <im> ;
+<ie/f7b1f33b-5412-47e5-92c4-e3a6f5897801> a skos:Concept ;
+    skos:broader <ie> ;
     skos:inScheme <> ;
-    skos:narrower <im/76f04b4e-b809-47a5-a978-fda08a7a4f83> ;
-    skos:notation "l5" ;
-    skos:prefLabel "Leitidee Daten und Zufall"@de .
+    skos:narrower <ie/07264c20-4348-4646-bb0e-287f14876c7f> ;
+    skos:notation "L1" ;
+    skos:prefLabel "Leitidee Zahl"@de .
 
-<im/56600aa4-c121-4980-8e1b-ea529595c92b> a skos:Concept ;
+<im/0e729a8b-7f96-40ed-82e4-3ad9f2de9e4a> a skos:Concept ;
     skos:broader <im> ;
     skos:inScheme <> ;
-    skos:narrower <im/339ccfe7-5412-4c54-a886-95b772400e6c> ;
+    skos:narrower <im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> ;
     skos:notation "l3" ;
     skos:prefLabel "Leitidee Raum und Form"@de .
 
-<im/831e18f4-a1e4-4762-9b5c-1ac3e7e168d6> a skos:Concept ;
+<im/1e6d60a2-f1d4-4519-8499-6575c621e12c> a skos:Concept ;
     skos:broader <im> ;
     skos:inScheme <> ;
-    skos:narrower <im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> ;
-    skos:notation "l1" ;
-    skos:prefLabel "Leitidee Zahl"@de .
-
-<im/a8fa7a5e-81b5-45a3-abf0-e434e25a527e> a skos:Concept ;
-    skos:broader <im> ;
-    skos:inScheme <> ;
-    skos:narrower <im/984621f2-ba2d-4d60-8ab5-be0e93f62850> ;
+    skos:narrower <im/a5274310-32df-4333-8b9e-4041db2359af> ;
     skos:notation "l2" ;
     skos:prefLabel "Leitidee Messen"@de .
 
-<im/e0acc84c-1d0e-45d6-83d3-2c26f7ebf033> a skos:Concept ;
+<im/4a387fcb-4e47-4071-9ccc-64a3bc3932bd> a skos:Concept ;
     skos:broader <im> ;
     skos:inScheme <> ;
-    skos:narrower <im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> ;
+    skos:narrower <im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> ;
     skos:notation "l4" ;
     skos:prefLabel "Leitidee Funktionaler Zusammenhang"@de .
 
-<allg/33180353-d173-4b76-a13d-b3f59b092be5> a skos:Concept ;
-    skos:broader <allg/f4136bea-839a-489b-a32a-f317da5db51b> ;
+<im/7fa2a6e2-8f37-4a9a-ac50-5a2538097603> a skos:Concept ;
+    skos:broader <im> ;
     skos:inScheme <> ;
-    skos:narrower <allg/117ff92b-f32f-4ca4-aeb4-ce493d5bb194>,
-        <allg/34aa0368-1b81-4611-afa8-37944161c06a> ;
-    skos:notation "K1.1" ;
-    skos:prefLabel "Reproduzieren"@de .
+    skos:narrower <im/e5307b2a-cc6c-486d-84de-3105cb98d35a> ;
+    skos:notation "l1" ;
+    skos:prefLabel "Leitidee Zahl"@de .
 
-<allg/74cc254b-02e2-4436-947c-2439681f7c04> a skos:Concept ;
-    skos:broader <allg/d40af943-5fb5-40de-a65c-817aceadc58f> ;
+<im/cda04b16-0543-4e0a-8a40-18ba5596ddbb> a skos:Concept ;
+    skos:broader <im> ;
     skos:inScheme <> ;
-    skos:narrower <allg/06f05628-4d45-4dbd-8bf9-03fa3de9e8d6>,
-        <allg/d187abba-e605-4a09-96f9-58a9da1b63e2> ;
+    skos:narrower <im/bcd48394-93e5-470b-a5ba-83d5dc238539> ;
+    skos:notation "l5" ;
+    skos:prefLabel "Leitidee Daten und Zufall"@de .
+
+<allg/1e903350-6c3a-4fa3-bb1c-11e2f9a0b7c8> a skos:Concept ;
+    skos:broader <allg/4c9564b7-65e0-4d6c-b818-2fe41d722d81> ;
+    skos:inScheme <> ;
+    skos:narrower <allg/7f8c01db-ebb4-4f00-8ecb-cfa941b1e777>,
+        <allg/f8d3139b-938c-4e1e-8ae3-eb23dc5156f6> ;
+    skos:notation "K3.3" ;
+    skos:prefLabel "Verallgemeinern und Reflektieren"@de .
+
+<allg/35d19bf0-9fb7-4919-83ca-3af462d828e2> a skos:Concept ;
+    skos:broader <allg/17750f7e-47ed-4282-8663-9cbc4e2f6ba6> ;
+    skos:inScheme <> ;
+    skos:narrower <allg/66be82f8-9db4-43b3-bed4-0fe74cdc3bca>,
+        <allg/b6e37683-b1ae-4a78-98b7-86eb32e626c0> ;
     skos:notation "K2.3" ;
     skos:prefLabel "Verallgemeinern und Reflektieren"@de .
 
-<allg/b1f37200-ff6a-49b4-8e41-b5d08e426f58> a skos:Concept ;
-    skos:broader <allg/d40af943-5fb5-40de-a65c-817aceadc58f> ;
+<allg/52267cad-b4f1-4673-ad32-d35fa510f291> a skos:Concept ;
+    skos:broader <allg/17750f7e-47ed-4282-8663-9cbc4e2f6ba6> ;
     skos:inScheme <> ;
-    skos:narrower <allg/42149db8-7114-4b5c-9915-fc33b5aabbeb>,
-        <allg/81c3389f-cb67-4d12-81b8-a2b2413dae2c> ;
+    skos:narrower <allg/4d902591-b151-4942-bb81-3197a33587df>,
+        <allg/fc7efecf-7640-40a9-8d26-146f1cd3b0ad> ;
     skos:notation "K2.1" ;
     skos:prefLabel "Reproduzieren"@de .
 
-<allg/b9ad826e-3f16-46bd-bbbe-62ac10cd9a4f> a skos:Concept ;
-    skos:broader <allg/19680968-3640-44c3-96e5-b42c65c654bc> ;
+<allg/699b9014-bce9-400a-a74f-c3bff8c446c3> a skos:Concept ;
+    skos:broader <allg/e5e11707-90bd-47eb-9169-f20f615b40db> ;
     skos:inScheme <> ;
-    skos:narrower <allg/c1eed778-2bb4-40b2-9fc7-13fef36e082a>,
-        <allg/ced88d35-c6f7-48ea-a29b-0b09ca55d43d> ;
-    skos:notation "K5.3" ;
-    skos:prefLabel "Verallgemeinern und Reflektieren"@de .
+    skos:narrower <allg/8fdffbb0-0026-4485-84d6-9977badc4877>,
+        <allg/e77bc36d-3279-48f2-a97c-32293ec5535c> ;
+    skos:notation "K1.1" ;
+    skos:prefLabel "Reproduzieren"@de .
 
-<allg/ca71738d-3219-4286-8245-b4bcf53e10b9> a skos:Concept ;
-    skos:broader <allg/d90db3f7-9db3-4e7c-a212-32f95bd15ea9> ;
+<allg/c5dcf40d-10a4-49a3-aecb-c684e8784798> a skos:Concept ;
+    skos:broader <allg/fd0b03af-4f4b-49a5-bb81-5f4673819026> ;
     skos:inScheme <> ;
-    skos:narrower <allg/17755a5a-ec1f-44f8-8d3c-5130d195f2a8>,
-        <allg/1bc08ba3-a3ca-459a-827c-d534cf468c5f> ;
-    skos:notation "K3.3" ;
+    skos:narrower <allg/769be937-5bb8-4ece-b86c-dd001aaa071b>,
+        <allg/ed0b9f6c-47e1-4213-871b-13cf93246830> ;
+    skos:notation "K5.3" ;
     skos:prefLabel "Verallgemeinern und Reflektieren"@de .
 
 <ab> a skos:Concept ;
     skos:definition "Zum Lösen mathematischer Aufgaben werden die prozessbezogenen Kompetenzen in unterschiedlicher Ausprägung benötigt. Diesbezüglich lassen sich drei Anforderungsbereiche für alle Schülerinnen und Schüler unterscheiden: (I) Reproduzieren, (II) Zusammenhänge herstellen sowie (III) Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich I bis Anforderungsbereich III zu. Die Anforderungsbereiche sind für alle prozessbezogenen Kompetenzen wie folgt charakterisiert:"@de ;
-    skos:narrower <ab/63e203d3-62a1-466e-aec6-b68a07c0e9b8>,
-        <ab/6eb992e8-b699-4221-a6bc-e89e1ebf164d>,
-        <ab/8c5c10b7-105d-46f7-acc1-070c9b8f121a> ;
+    skos:narrower <ab/267ccd9f-f6da-4e60-9a94-ba6b9e832e8e>,
+        <ab/2f573bc1-246b-44a4-88fc-27e33a03432d>,
+        <ab/42a645df-b472-4d3d-9ef7-075e5650a333> ;
     skos:prefLabel "Anforderungsbereiche"@de ;
     skos:topConceptOf <> .
 
-<allg/19680968-3640-44c3-96e5-b42c65c654bc> a skos:Concept ;
-    skos:broader <allg> ;
-    skos:definition "Dazu gehört: – mit Variablen, Termen, Gleichungen, Funktionen, Diagrammen, Tabellen arbeiten, – symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt, – Lösungs- und Kontrollverfahren ausführen,– mathematische Werkzeuge (wie Formelsammlungen, Taschenrechner, Software) sinnvoll und verständig einsetzen."@de ;
+<allg/13c4f25b-1e1d-420b-b59d-061396b198f9> a skos:Concept ;
+    skos:broader <allg/9cf779eb-5abd-4d86-95be-1e4259424b22> ;
     skos:inScheme <> ;
-    skos:narrower <allg/b9ad826e-3f16-46bd-bbbe-62ac10cd9a4f>,
-        <allg/bac17183-6378-4a54-8763-2837c90bbe32>,
-        <allg/e1162af2-d8e1-4666-a8ae-f86f7be6f9c0> ;
-    skos:notation "K5" ;
-    skos:prefLabel "Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen"@de .
-
-<allg/4443edfe-772e-4298-8cea-772b1570058f> a skos:Concept ;
-    skos:broader <allg/d90db3f7-9db3-4e7c-a212-32f95bd15ea9> ;
-    skos:inScheme <> ;
-    skos:narrower <allg/776f0ca6-45c8-413c-b04c-67cbe5ad9c2a>,
-        <allg/906870c8-476f-4365-b7ff-a2dc311aba95>,
-        <allg/ced83cef-2f4b-4d2e-a8e7-668ee5e0c0dc> ;
-    skos:notation "K3.1" ;
-    skos:prefLabel "Reproduzieren"@de .
-
-<allg/6d0f8352-6700-4c73-aa69-c29ed8954935> a skos:Concept ;
-    skos:broader <allg/e4a4f69e-6d80-4d50-a4da-e7c7d91f41f9> ;
-    skos:inScheme <> ;
-    skos:narrower <allg/0ab39733-5477-452a-8275-5347717f9254>,
-        <allg/6f995642-9105-4e7b-895f-aa6df5404cd1>,
-        <allg/ff078615-2cdc-4854-803d-193e4c7172c4> ;
+    skos:narrower <allg/24378f8d-8a21-44ab-b8a7-482073584cf4>,
+        <allg/2d3fa77d-5980-436d-a7cd-9ef585f52dd0>,
+        <allg/943a1867-3d2a-4b92-920f-35bffd35ccda> ;
     skos:notation "K6.1" ;
     skos:prefLabel "Reproduzieren"@de .
 
-<allg/8c6e794f-e443-4942-b230-6dd95f41565f> a skos:Concept ;
-    skos:broader <allg/f4136bea-839a-489b-a32a-f317da5db51b> ;
-    skos:inScheme <> ;
-    skos:narrower <allg/05097581-590c-471c-b450-283596628fe1>,
-        <allg/19766d15-4ace-43b3-a020-6dda15ac7f36>,
-        <allg/a4f2127d-0608-46f4-9424-819c133bc850> ;
-    skos:notation "K1.3" ;
-    skos:prefLabel "Verallgemeinern und Reflektieren"@de .
-
-<allg/adaf9afd-65c5-40b3-96da-aec678f8b9fd> a skos:Concept ;
-    skos:broader <allg/d40af943-5fb5-40de-a65c-817aceadc58f> ;
-    skos:inScheme <> ;
-    skos:narrower <allg/20fabdcd-09df-4ec2-8ca1-b49874e4347f>,
-        <allg/2269e81e-383c-453b-acef-601624bca291>,
-        <allg/d92af2a3-34c7-4a8b-98a6-f097a3532890> ;
-    skos:notation "K2.2" ;
-    skos:prefLabel "Zusammenhänge  herstellen"@de .
-
-<allg/bac17183-6378-4a54-8763-2837c90bbe32> a skos:Concept ;
-    skos:broader <allg/19680968-3640-44c3-96e5-b42c65c654bc> ;
-    skos:inScheme <> ;
-    skos:narrower <allg/2ca31256-7725-438e-ac91-55061b5a4042>,
-        <allg/a2bfc39c-f49a-4373-8370-5a1c30c113ac>,
-        <allg/aca16af0-105f-4f41-bf71-2d8033306f87> ;
-    skos:notation "K5.1" ;
-    skos:prefLabel "Reproduzieren"@de .
-
-<allg/c4550650-d1cf-4ea3-8242-8f767188dd4b> a skos:Concept ;
-    skos:broader <allg/d90db3f7-9db3-4e7c-a212-32f95bd15ea9> ;
-    skos:inScheme <> ;
-    skos:narrower <allg/14bd0e05-a6fe-4830-a5cf-dd8bdd50214c>,
-        <allg/489257e4-5544-44da-8455-90f78d390fe2>,
-        <allg/8822f867-364c-4356-8139-e1ea8aafa2f1> ;
-    skos:notation "K3.2" ;
-    skos:prefLabel "Zusammenhänge  herstellen"@de .
-
-<allg/ceba5571-ac1c-47a4-a624-b09db23256be> a skos:Concept ;
-    skos:broader <allg/f8f4e0c1-c589-454d-b327-798c08087bc8> ;
-    skos:inScheme <> ;
-    skos:narrower <allg/06441318-47b6-4ea9-a386-2d03873ba902>,
-        <allg/2649a4b4-1bbf-40ed-bfae-bd79f9b07a90>,
-        <allg/9ff8189b-c360-46d4-9643-3935c0485e3e> ;
-    skos:notation "K4.3" ;
-    skos:prefLabel "Verallgemeinern und Reflektieren"@de .
-
-<allg/d40af943-5fb5-40de-a65c-817aceadc58f> a skos:Concept ;
+<allg/17750f7e-47ed-4282-8663-9cbc4e2f6ba6> a skos:Concept ;
     skos:broader <allg> ;
     skos:definition "Dazu gehört: – vorgegebene und selbst formulierte Probleme bearbeiten, – geeignete heuristische Hilfsmittel, Strategien und Prinzipien zum Problemlösen auswählen und anwenden, – die Plausibilität der Ergebnisse überprüfen sowie das Finden von Lösungsideen und die Lösungswege reflektieren."@de ;
     skos:inScheme <> ;
-    skos:narrower <allg/74cc254b-02e2-4436-947c-2439681f7c04>,
-        <allg/adaf9afd-65c5-40b3-96da-aec678f8b9fd>,
-        <allg/b1f37200-ff6a-49b4-8e41-b5d08e426f58> ;
+    skos:narrower <allg/35d19bf0-9fb7-4919-83ca-3af462d828e2>,
+        <allg/52267cad-b4f1-4673-ad32-d35fa510f291>,
+        <allg/da2fbd53-4768-49fa-9f5d-97e89bfcf0b3> ;
     skos:notation "K2" ;
     skos:prefLabel "Probleme mathematisch lösen"@de .
 
-<allg/d90db3f7-9db3-4e7c-a212-32f95bd15ea9> a skos:Concept ;
-    skos:broader <allg> ;
-    skos:definition "Dazu gehört: – den Bereich oder die Situation, die modelliert werden soll, in mathematische Begriffe, Strukturen und Relationen übersetzen, – in dem jeweiligen mathematischen Modell arbeiten, – Ergebnisse in dem entsprechenden Bereich oder der entsprechenden Situation interpretieren und prüfen."@de ;
+<allg/2bfe4119-85da-475d-ad84-00100ee96011> a skos:Concept ;
+    skos:broader <allg/fd0b03af-4f4b-49a5-bb81-5f4673819026> ;
     skos:inScheme <> ;
-    skos:narrower <allg/4443edfe-772e-4298-8cea-772b1570058f>,
-        <allg/c4550650-d1cf-4ea3-8242-8f767188dd4b>,
-        <allg/ca71738d-3219-4286-8245-b4bcf53e10b9> ;
-    skos:notation "K3" ;
-    skos:prefLabel "Mathematisch modellieren"@de .
+    skos:narrower <allg/20cb99b3-ba03-41be-880b-226f7830aabf>,
+        <allg/2b71fba5-d5f6-431d-a4d6-969cfcee19f1>,
+        <allg/490e73ad-5094-4da8-a4e3-e739313761e6> ;
+    skos:notation "K5.1" ;
+    skos:prefLabel "Reproduzieren"@de .
 
-<allg/dfd7d65f-e8dc-44bd-bf72-4d2fcc3dfb03> a skos:Concept ;
-    skos:broader <allg/e4a4f69e-6d80-4d50-a4da-e7c7d91f41f9> ;
-    skos:inScheme <> ;
-    skos:narrower <allg/24e269c7-d5b2-477e-b674-fdd3a6fd17c1>,
-        <allg/d87616a1-b73d-433e-852c-15493f4b1fa2>,
-        <allg/ee9fcf80-7c7c-4885-a1a1-9cf1268c909e> ;
-    skos:notation "K6.3" ;
-    skos:prefLabel "Verallgemeinern und Reflektieren"@de .
-
-<allg/e4a4f69e-6d80-4d50-a4da-e7c7d91f41f9> a skos:Concept ;
-    skos:broader <allg> ;
-    skos:definition "Dazu gehört: – Überlegungen, Lösungswege bzw. Ergebnisse dokumentieren, verständlich darstellen und präsentieren, auch unter Nutzung geeigneter Medien, – die Fachsprache adressatengerecht verwenden, – Äußerungen von anderen und Texte zu mathematischen Inhalten verstehen und überprüfen."@de ;
-    skos:inScheme <> ;
-    skos:narrower <allg/162acc25-5a4f-4e03-8b9c-b866c52af29c>,
-        <allg/6d0f8352-6700-4c73-aa69-c29ed8954935>,
-        <allg/dfd7d65f-e8dc-44bd-bf72-4d2fcc3dfb03> ;
-    skos:notation "K6" ;
-    skos:prefLabel "kommunizieren"@de .
-
-<allg/f4136bea-839a-489b-a32a-f317da5db51b> a skos:Concept ;
-    skos:broader <allg> ;
-    skos:definition "Dazu gehört: – Fragen stellen, die für die Mathematik charakteristisch sind („Gibt es...?“, „Wie verändert sich...?“, „Ist das immer so ...?“) und Vermutungen begründet äußern, – mathematische Argumentationen entwickeln (wie Erläuterungen, Begründungen, Beweise), – Lösungswege beschreiben und begründen."@de ;
-    skos:inScheme <> ;
-    skos:narrower <allg/33180353-d173-4b76-a13d-b3f59b092be5>,
-        <allg/834860df-88f9-40ee-b449-12d5d9b3c794>,
-        <allg/8c6e794f-e443-4942-b230-6dd95f41565f> ;
-    skos:notation "K1" ;
-    skos:prefLabel "Mathematisch argumentieren"@de .
-
-<allg/f8f4e0c1-c589-454d-b327-798c08087bc8> a skos:Concept ;
+<allg/3581d8ab-95ca-43fc-8dbe-5b050f95e614> a skos:Concept ;
     skos:broader <allg> ;
     skos:definition "Dazu gehört: – verschiedene Formen der Darstellung von mathematischen Objekten und Situationen anwenden, interpretieren und unterscheiden, – Beziehungen zwischen Darstellungsformen erkennen, – unterschiedliche Darstellungsformen je nach Situation und Zweck auswählen und zwischen ihnen wechseln."@de ;
     skos:inScheme <> ;
-    skos:narrower <allg/3dd43f54-4f9d-4406-9ccb-363e635cc6bd>,
-        <allg/9a691109-333e-4869-ac82-bd90da393c44>,
-        <allg/ceba5571-ac1c-47a4-a624-b09db23256be> ;
+    skos:narrower <allg/74deeb9f-8802-49de-9942-997930a9c20b>,
+        <allg/9f1cda1c-34ca-4f75-898b-ebffb2767c09>,
+        <allg/a8248d3b-8098-4c4f-86f6-8a52cd253c3b> ;
     skos:notation "K4" ;
     skos:prefLabel "Mathematischee Darstellungen verwenden"@de .
 
-<allg/834860df-88f9-40ee-b449-12d5d9b3c794> a skos:Concept ;
-    skos:broader <allg/f4136bea-839a-489b-a32a-f317da5db51b> ;
+<allg/4c9564b7-65e0-4d6c-b818-2fe41d722d81> a skos:Concept ;
+    skos:broader <allg> ;
+    skos:definition "Dazu gehört: – den Bereich oder die Situation, die modelliert werden soll, in mathematische Begriffe, Strukturen und Relationen übersetzen, – in dem jeweiligen mathematischen Modell arbeiten, – Ergebnisse in dem entsprechenden Bereich oder der entsprechenden Situation interpretieren und prüfen."@de ;
     skos:inScheme <> ;
-    skos:narrower <allg/3b194630-5685-4c8f-8a08-2ada51ddf3d2>,
-        <allg/b609cd45-d786-4394-84f6-7c33f414af44>,
-        <allg/ccf06427-edb3-4970-9fac-a89c391e415b>,
-        <allg/e5d4b787-344a-4dbc-8906-196b1d09388a> ;
+    skos:narrower <allg/1e903350-6c3a-4fa3-bb1c-11e2f9a0b7c8>,
+        <allg/b531c572-51d3-4c6a-8d9e-eb824f56b8ac>,
+        <allg/e3d04d3b-c308-4548-bccc-e2ad5239f577> ;
+    skos:notation "K3" ;
+    skos:prefLabel "Mathematisch modellieren"@de .
+
+<allg/74deeb9f-8802-49de-9942-997930a9c20b> a skos:Concept ;
+    skos:broader <allg/3581d8ab-95ca-43fc-8dbe-5b050f95e614> ;
+    skos:inScheme <> ;
+    skos:narrower <allg/82404e66-447b-48a0-9732-a624291b1be6>,
+        <allg/8fa66206-2d62-45e4-9833-6bfa22689226>,
+        <allg/d0354c9f-a07d-43c1-9980-23b42604a01e> ;
+    skos:notation "K4.3" ;
+    skos:prefLabel "Verallgemeinern und Reflektieren"@de .
+
+<allg/9cf779eb-5abd-4d86-95be-1e4259424b22> a skos:Concept ;
+    skos:broader <allg> ;
+    skos:definition "Dazu gehört: – Überlegungen, Lösungswege bzw. Ergebnisse dokumentieren, verständlich darstellen und präsentieren, auch unter Nutzung geeigneter Medien, – die Fachsprache adressatengerecht verwenden, – Äußerungen von anderen und Texte zu mathematischen Inhalten verstehen und überprüfen."@de ;
+    skos:inScheme <> ;
+    skos:narrower <allg/13c4f25b-1e1d-420b-b59d-061396b198f9>,
+        <allg/338b50d1-44a6-4547-a197-83a180d9b930>,
+        <allg/a7c156ab-c2b9-4f4d-a03a-23d465893c67> ;
+    skos:notation "K6" ;
+    skos:prefLabel "kommunizieren"@de .
+
+<allg/a7c156ab-c2b9-4f4d-a03a-23d465893c67> a skos:Concept ;
+    skos:broader <allg/9cf779eb-5abd-4d86-95be-1e4259424b22> ;
+    skos:inScheme <> ;
+    skos:narrower <allg/2fd6aa0c-f4ed-4b26-a295-1d245d7ca158>,
+        <allg/882b8fae-da21-44e8-93f5-18827818d1c5>,
+        <allg/c8a6d7d9-3c0a-427d-9639-75a555c73420> ;
+    skos:notation "K6.3" ;
+    skos:prefLabel "Verallgemeinern und Reflektieren"@de .
+
+<allg/b531c572-51d3-4c6a-8d9e-eb824f56b8ac> a skos:Concept ;
+    skos:broader <allg/4c9564b7-65e0-4d6c-b818-2fe41d722d81> ;
+    skos:inScheme <> ;
+    skos:narrower <allg/5f1a175d-a2f7-45cd-916c-0a1a18812a9f>,
+        <allg/9f61cfd8-dc9f-4cd8-9169-4eedb1a3e46d>,
+        <allg/f6eeda29-587c-48d0-9429-7eea85327757> ;
+    skos:notation "K3.2" ;
+    skos:prefLabel "Zusammenhänge  herstellen"@de .
+
+<allg/d93c9cee-06cf-4334-8282-f61630b3d480> a skos:Concept ;
+    skos:broader <allg/e5e11707-90bd-47eb-9169-f20f615b40db> ;
+    skos:inScheme <> ;
+    skos:narrower <allg/138210cf-05f1-4c11-aeb4-c860dbba6821>,
+        <allg/667577bc-b724-48c0-92ca-57adeb2ee388>,
+        <allg/aec28da5-e3fb-46eb-8c17-ab39d870a838> ;
+    skos:notation "K1.3" ;
+    skos:prefLabel "Verallgemeinern und Reflektieren"@de .
+
+<allg/da2fbd53-4768-49fa-9f5d-97e89bfcf0b3> a skos:Concept ;
+    skos:broader <allg/17750f7e-47ed-4282-8663-9cbc4e2f6ba6> ;
+    skos:inScheme <> ;
+    skos:narrower <allg/2dd6909c-cc6c-44af-a789-22ec802c2072>,
+        <allg/b9d72d19-5486-4d43-aae3-46e8c496e3f0>,
+        <allg/e2a3db49-175b-45eb-9d90-8fe9e53181c1> ;
+    skos:notation "K2.2" ;
+    skos:prefLabel "Zusammenhänge  herstellen"@de .
+
+<allg/e3d04d3b-c308-4548-bccc-e2ad5239f577> a skos:Concept ;
+    skos:broader <allg/4c9564b7-65e0-4d6c-b818-2fe41d722d81> ;
+    skos:inScheme <> ;
+    skos:narrower <allg/8c6a0d0a-df50-4fbf-b81e-b077768dc3e9>,
+        <allg/8cc34f4b-e33c-4e1c-9026-70f707ab0059>,
+        <allg/a132a2a9-bbe4-4855-b763-3e14dc6afb66> ;
+    skos:notation "K3.1" ;
+    skos:prefLabel "Reproduzieren"@de .
+
+<allg/e5e11707-90bd-47eb-9169-f20f615b40db> a skos:Concept ;
+    skos:broader <allg> ;
+    skos:definition "Dazu gehört: – Fragen stellen, die für die Mathematik charakteristisch sind („Gibt es...?“, „Wie verändert sich...?“, „Ist das immer so ...?“) und Vermutungen begründet äußern, – mathematische Argumentationen entwickeln (wie Erläuterungen, Begründungen, Beweise), – Lösungswege beschreiben und begründen."@de ;
+    skos:inScheme <> ;
+    skos:narrower <allg/042af19d-e164-4cf4-8c26-edf345ebe3b0>,
+        <allg/699b9014-bce9-400a-a74f-c3bff8c446c3>,
+        <allg/d93c9cee-06cf-4334-8282-f61630b3d480> ;
+    skos:notation "K1" ;
+    skos:prefLabel "Mathematisch argumentieren"@de .
+
+<allg/fd0b03af-4f4b-49a5-bb81-5f4673819026> a skos:Concept ;
+    skos:broader <allg> ;
+    skos:definition "Dazu gehört: – mit Variablen, Termen, Gleichungen, Funktionen, Diagrammen, Tabellen arbeiten, – symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt, – Lösungs- und Kontrollverfahren ausführen,– mathematische Werkzeuge (wie Formelsammlungen, Taschenrechner, Software) sinnvoll und verständig einsetzen."@de ;
+    skos:inScheme <> ;
+    skos:narrower <allg/2bfe4119-85da-475d-ad84-00100ee96011>,
+        <allg/c5dcf40d-10a4-49a3-aecb-c684e8784798>,
+        <allg/df465546-fc59-4a6c-b740-383d90fff80e> ;
+    skos:notation "K5" ;
+    skos:prefLabel "Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen"@de .
+
+<allg/042af19d-e164-4cf4-8c26-edf345ebe3b0> a skos:Concept ;
+    skos:broader <allg/e5e11707-90bd-47eb-9169-f20f615b40db> ;
+    skos:inScheme <> ;
+    skos:narrower <allg/56472d33-d488-4cca-8fa8-05f7d89089b3>,
+        <allg/597948ba-ce99-4b1a-9d01-8ce92d1106d7>,
+        <allg/9d2f6254-d6c7-40a0-974b-afa274237399>,
+        <allg/c27a0456-a78b-441e-abf9-b9f3b17c5407> ;
     skos:notation "K1.2" ;
     skos:prefLabel "Zusammenhänge  herstellen"@de .
 
-<allg/e1162af2-d8e1-4666-a8ae-f86f7be6f9c0> a skos:Concept ;
-    skos:broader <allg/19680968-3640-44c3-96e5-b42c65c654bc> ;
+<allg/df465546-fc59-4a6c-b740-383d90fff80e> a skos:Concept ;
+    skos:broader <allg/fd0b03af-4f4b-49a5-bb81-5f4673819026> ;
     skos:inScheme <> ;
-    skos:narrower <allg/7f8a61f7-b949-4770-a0ed-9f8c321cac69>,
-        <allg/8094485e-b2d5-4128-9d36-df7d748ff529>,
-        <allg/bf73c09d-51ed-4f72-90da-4d31d3436297>,
-        <allg/d9fee16d-e1ef-418b-9082-91757ca3d892> ;
+    skos:narrower <allg/0b8fe149-b940-4c69-8fda-950594d59ef3>,
+        <allg/1b4ad1c1-7574-4268-8729-e2eb3298fee2>,
+        <allg/58ae3d1d-49be-4526-b3da-81812a6077d7>,
+        <allg/6c0f1ae5-d4c5-497b-a867-30bdf319ecab> ;
     skos:notation "K5.2" ;
     skos:prefLabel "Zusammenhänge  herstellen"@de .
 
-<allg/162acc25-5a4f-4e03-8b9c-b866c52af29c> a skos:Concept ;
-    skos:broader <allg/e4a4f69e-6d80-4d50-a4da-e7c7d91f41f9> ;
+<allg/338b50d1-44a6-4547-a197-83a180d9b930> a skos:Concept ;
+    skos:broader <allg/9cf779eb-5abd-4d86-95be-1e4259424b22> ;
     skos:inScheme <> ;
-    skos:narrower <allg/0d757c53-05f7-452d-af27-4006e73d1978>,
-        <allg/35962a11-073c-4f12-9f63-96ca803a75c7>,
-        <allg/47413905-f00d-47a4-934a-68891cc8db5f>,
-        <allg/5ebf4d89-63e5-431a-a5ac-a139eb3d6506>,
-        <allg/67d5c006-80a0-4277-8265-5d1a686b42b8> ;
+    skos:narrower <allg/65874755-84d8-42e5-ab72-a343e070d329>,
+        <allg/9ce78720-59f2-4bd8-84b4-8313f5387f07>,
+        <allg/b4b77106-4389-4945-895f-7628ba5e919f>,
+        <allg/c55b77f5-8e2d-4666-8404-0a0d443a3666>,
+        <allg/d364048c-dd0d-4973-86b7-3a542b885dd6> ;
     skos:notation "K6.2" ;
     skos:prefLabel "Zusammenhänge  herstellen"@de .
 
 <ie> a skos:Concept ;
     skos:definition "Die oben beschriebenen allgemeinen mathematischen Kompetenzen werden von Schülerinnen und Schülern in der Auseinandersetzung mit mathematischen Inhalten erworben. Dementsprechend lassen sich die allgemeinen mathematischen Kompetenzen als Dispositionen von Schülerinnen und Schülern vielfältig inhaltsbezogen konkretisieren. Im Folgenden werden Standards für inhaltsbezogene mathematische Kompetenzen benannt.Sie sind jeweils ausgewählten mathematischen Leitideen zugeordnet, um Verständnis von grundlegenden mathematischen Konzepten zu erreichen, Besonderheiten mathematischen Denkens zu verdeutlichen sowie Bedeutung und Funktion der Mathematik für die Gestaltung und Erkenntnis der Welt erfahren zu lassen. Folgende mathematische Leitideen sind zu Grunde gelegt: – Zahl, – Messen, – Raum und Form, – Funktionaler Zusammenhang, – Daten und Zufall. Eine Leitidee vereinigt Inhalte verschiedener mathematischer Sachgebiete und durchzieht ein mathematisches Curriculum spiralförmig. Die Zuordnung einer inhaltsbezogenen mathematischen Kompetenz zu einer mathematischen Leitidee ist nicht in jedem Fall eindeutig, sondern davon abhängig, welcher Aspekt mathematischen Arbeitens im inhaltlichen Zusammenhang betont werden soll."@de ;
-    skos:narrower <ie/11af58a6-158f-4b9e-805a-806f79ae7a29>,
-        <ie/1591fad6-e304-4d67-8eb3-8984efa5b2dd>,
-        <ie/8bd19d98-91d1-41fe-9101-19a1db23676d>,
-        <ie/d88b6ef7-c810-4ff6-9694-be7ace97245c>,
-        <ie/fa7082a4-2227-4194-97ec-72bfa32933e7> ;
+    skos:narrower <ie/139af731-c84e-49d5-89ac-16ed5e33f040>,
+        <ie/38519b08-a356-4025-a5f0-96ce1b1ef578>,
+        <ie/8375b4c1-b007-4c2a-a37b-c267852e69c8>,
+        <ie/b815e7bf-92a5-499b-bd74-d586bd43e257>,
+        <ie/f7b1f33b-5412-47e5-92c4-e3a6f5897801> ;
     skos:prefLabel "Inhaltsbezogene Kompetenzen - HSA"@de ;
     skos:topConceptOf <> .
 
 <im> a skos:Concept ;
     skos:definition "Die oben beschriebenen allgemeinen mathematischen Kompetenzen werden von Schülerinnen und Schülern in der Auseinandersetzung mit mathematischen Inhalten erworben. Dementsprechend lassen sich die allgemeinen mathematischen Kompetenzen als Dispositionen von Schülerinnen und Schülern vielfältig inhaltsbezogen konkretisieren. Im Folgenden werden Standards für inhaltsbezogene mathematische Kompetenzen benannt.Sie sind jeweils ausgewählten mathematischen Leitideen zugeordnet, um Verständnis von grundlegenden mathematischen Konzepten zu erreichen, Besonderheiten mathematischen Denkens zu verdeutlichen sowie Bedeutung und Funktion der Mathematik für die Gestaltung und Erkenntnis der Welt erfahren zu lassen. Folgende mathematische Leitideen sind zu Grunde gelegt: – Zahl, – Messen, – Raum und Form, – Funktionaler Zusammenhang, – Daten und Zufall. Eine Leitidee vereinigt Inhalte verschiedener mathematischer Sachgebiete und durchzieht ein mathematisches Curriculum spiralförmig. Die Zuordnung einer inhaltsbezogenen mathematischen Kompetenz zu einer mathematischen Leitidee ist nicht in jedem Fall eindeutig, sondern davon abhängig, welcher Aspekt mathematischen Arbeitens im inhaltlichen Zusammenhang betont werden soll."@de ;
-    skos:narrower <im/49cd1889-83c4-4756-be6d-e252ec0034ec>,
-        <im/56600aa4-c121-4980-8e1b-ea529595c92b>,
-        <im/831e18f4-a1e4-4762-9b5c-1ac3e7e168d6>,
-        <im/a8fa7a5e-81b5-45a3-abf0-e434e25a527e>,
-        <im/e0acc84c-1d0e-45d6-83d3-2c26f7ebf033> ;
+    skos:narrower <im/0e729a8b-7f96-40ed-82e4-3ad9f2de9e4a>,
+        <im/1e6d60a2-f1d4-4519-8499-6575c621e12c>,
+        <im/4a387fcb-4e47-4071-9ccc-64a3bc3932bd>,
+        <im/7fa2a6e2-8f37-4a9a-ac50-5a2538097603>,
+        <im/cda04b16-0543-4e0a-8a40-18ba5596ddbb> ;
     skos:prefLabel "Inhaltsbezogene Kompetenzen - MSA"@de ;
     skos:topConceptOf <> .
 
 <allg> a skos:Concept ;
-    skos:narrower <allg/19680968-3640-44c3-96e5-b42c65c654bc>,
-        <allg/d40af943-5fb5-40de-a65c-817aceadc58f>,
-        <allg/d90db3f7-9db3-4e7c-a212-32f95bd15ea9>,
-        <allg/e4a4f69e-6d80-4d50-a4da-e7c7d91f41f9>,
-        <allg/f4136bea-839a-489b-a32a-f317da5db51b>,
-        <allg/f8f4e0c1-c589-454d-b327-798c08087bc8> ;
+    skos:narrower <allg/17750f7e-47ed-4282-8663-9cbc4e2f6ba6>,
+        <allg/3581d8ab-95ca-43fc-8dbe-5b050f95e614>,
+        <allg/4c9564b7-65e0-4d6c-b818-2fe41d722d81>,
+        <allg/9cf779eb-5abd-4d86-95be-1e4259424b22>,
+        <allg/e5e11707-90bd-47eb-9169-f20f615b40db>,
+        <allg/fd0b03af-4f4b-49a5-bb81-5f4673819026> ;
     skos:prefLabel "Allgemeine Kompetenzen"@de ;
     skos:topConceptOf <> .
 
-<ie/74ed0653-8b44-4210-93d3-0fc3882d7883> a skos:Concept ;
-    skos:broader <ie/1591fad6-e304-4d67-8eb3-8984efa5b2dd> ;
+<ie/2f192116-ae4e-4f62-81db-b7d6590f1a2d> a skos:Concept ;
+    skos:broader <ie/38519b08-a356-4025-a5f0-96ce1b1ef578> ;
     skos:inScheme <> ;
-    skos:narrower <ie/1033d16f-ba96-4eee-971f-09252e44e1bb>,
-        <ie/24d201af-d4b7-4b2d-8d86-6fbf47647548>,
-        <ie/287d0bb0-d940-4a3d-822e-838175acefbf>,
-        <ie/455f6dd5-db4a-4fd4-a787-ad3ece3369c7>,
-        <ie/d719ef1a-ba85-4ba2-be26-04b0ea66be40>,
-        <ie/fafba1b7-f18e-45eb-9462-496d2ec78ae8> ;
-    skos:notation "L2.1" ;
-    skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
-
-<ie/a08c1c3b-22fa-4046-ad86-720fc20d0e5a> a skos:Concept ;
-    skos:broader <ie/8bd19d98-91d1-41fe-9101-19a1db23676d> ;
-    skos:inScheme <> ;
-    skos:narrower <ie/234667dc-8e70-422a-80b0-50e5d63e5184>,
-        <ie/508ce748-caa4-4cff-b2ec-8adeba5e8e3e>,
-        <ie/5b29ef02-6573-42bc-905c-21c6daa0e2ef>,
-        <ie/b8964a6d-2953-4e69-9925-95086bb5b3c3>,
-        <ie/c7beb36d-d028-4ee8-ad9d-80617046c11f>,
-        <ie/edf7b1eb-ae36-4445-ba12-e40a134a9fa6> ;
+    skos:narrower <ie/036faf9d-97d7-4dd8-810b-3d0df719fc65>,
+        <ie/104edab5-8af8-436f-bbc9-f32a0177f5f2>,
+        <ie/8203f69d-3c1d-4fc4-9884-4aa8176a23bd>,
+        <ie/ea13ae95-db2b-4261-a62b-13c54372c9fc>,
+        <ie/efcd8264-46b8-4c75-b80d-e4becb8c6059>,
+        <ie/f7408fd5-b96f-4c5b-a106-747ecfcaa5c0> ;
     skos:notation "L5.1" ;
     skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
 
-<ie/e8f25c0e-7d6d-46db-a548-1020b88f5d92> a skos:Concept ;
-    skos:broader <ie/d88b6ef7-c810-4ff6-9694-be7ace97245c> ;
+<ie/f5ceaa35-aad3-4b45-8ef4-9a34af6892aa> a skos:Concept ;
+    skos:broader <ie/139af731-c84e-49d5-89ac-16ed5e33f040> ;
     skos:inScheme <> ;
-    skos:narrower <ie/281b93dd-0e48-448b-8989-1d2bbb0b7613>,
-        <ie/2ef361aa-71ed-4864-a113-9ae9c89bc544>,
-        <ie/61d0191c-8e64-46f2-a60f-031e804372ad>,
-        <ie/9dc0816b-65e6-40cf-84bf-c4409a6c32d1>,
-        <ie/a18ff6a6-fa30-40ad-aadc-3104171ec0bc>,
-        <ie/abbe5e9b-b415-4ae5-b2d5-c6e9f5ff9988>,
-        <ie/e1dd14c2-e37b-4040-9019-978de5f9c5f8> ;
+    skos:narrower <ie/0a45ead3-3c7c-44b7-870b-722449c94e11>,
+        <ie/8ed940b4-8176-498c-a831-89bf7e9f5c0e>,
+        <ie/99dfad0b-41cc-4c58-8cc6-79d63200d95c>,
+        <ie/9b206b9e-dc76-4b45-81b3-fe4faf33b4c8>,
+        <ie/cea3d514-f94d-411b-ac8a-2ece2150d8a6>,
+        <ie/e1286abb-2a9b-4c38-b327-40f13b0a55ed> ;
+    skos:notation "L2.1" ;
+    skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
+
+<ie/04cf572c-6f96-4fad-8647-93630b5ca165> a skos:Concept ;
+    skos:broader <ie/8375b4c1-b007-4c2a-a37b-c267852e69c8> ;
+    skos:inScheme <> ;
+    skos:narrower <ie/337f52e1-3bbc-4192-ab12-22fff343bc93>,
+        <ie/3c304af2-5d70-4ec0-95fc-55e57cd45684>,
+        <ie/41e4f9b2-a167-489f-b0c3-3902c1b7c04a>,
+        <ie/4bd554a0-772f-4824-9ce3-d81f8bc18386>,
+        <ie/7f6f1562-f8a1-434d-b0f7-7b0df29eb5e7>,
+        <ie/d5908d53-ec3e-41d3-9a70-fffcbcbca242>,
+        <ie/e188de7e-f1ff-4c39-9ef0-5b0b2a455a72> ;
     skos:notation "L4.1" ;
     skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
 
-<im/76f04b4e-b809-47a5-a978-fda08a7a4f83> a skos:Concept ;
-    skos:broader <im/49cd1889-83c4-4756-be6d-e252ec0034ec> ;
+<im/a5274310-32df-4333-8b9e-4041db2359af> a skos:Concept ;
+    skos:broader <im/1e6d60a2-f1d4-4519-8499-6575c621e12c> ;
     skos:inScheme <> ;
-    skos:narrower <im/0ba407e6-bdbe-40f2-b436-fefa01b91691>,
-        <im/1edef3f8-b60f-44f9-9df5-6bd98d4d58df>,
-        <im/20109ada-93f8-49f0-ba7d-97bb8c55e91c>,
-        <im/30d6f380-af86-4920-a040-c9638e897ede>,
-        <im/d579c309-bb5c-4e5b-af13-1943f8b9a0b7>,
-        <im/f4e6125b-17c0-4823-a1ab-24235d458d90>,
-        <im/fca46894-ef6d-4a78-bbe5-310efab63c34> ;
-    skos:notation "l5.1" ;
-    skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
-
-<im/984621f2-ba2d-4d60-8ab5-be0e93f62850> a skos:Concept ;
-    skos:broader <im/a8fa7a5e-81b5-45a3-abf0-e434e25a527e> ;
-    skos:inScheme <> ;
-    skos:narrower <im/17c8fc62-b7e8-41a0-9190-1d42ec4a6b23>,
-        <im/32472837-f5c2-489b-bb49-f96565831f68>,
-        <im/72e222d8-bace-4a0a-95db-b497596e5a1a>,
-        <im/89bd076c-b09b-4c4f-89e8-c09999171c15>,
-        <im/b3a2acfe-5c6b-4b72-b5f3-c4a3594027f7>,
-        <im/e29665a7-170f-47fd-bf5b-36f0a983efde>,
-        <im/fdf111e7-549a-4af8-a4b3-e4d9a2912f2a> ;
+    skos:narrower <im/4d466652-b752-4179-ae8a-7db12dcbd1ad>,
+        <im/4dafc19e-d73a-4530-9aa3-f46bf65a73b3>,
+        <im/901879d8-87f7-4365-816c-604e9ab41e80>,
+        <im/c1d78b6b-afd4-43da-8aed-df7a00fbbdf0>,
+        <im/c2518e29-17fc-40c6-8f58-0f606c3ab460>,
+        <im/f5294395-92b4-4995-b975-276cd123e1fe>,
+        <im/fa4e6608-f911-4b1e-aee6-2bbbb3773725> ;
     skos:notation "l2.1" ;
     skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
 
-<ie/f672f0f3-aa70-4e14-a85f-0810af86061a> a skos:Concept ;
-    skos:broader <ie/fa7082a4-2227-4194-97ec-72bfa32933e7> ;
+<im/bcd48394-93e5-470b-a5ba-83d5dc238539> a skos:Concept ;
+    skos:broader <im/cda04b16-0543-4e0a-8a40-18ba5596ddbb> ;
     skos:inScheme <> ;
-    skos:narrower <ie/06f1dff0-103c-4fe7-9a42-d8e05a384939>,
-        <ie/1ec7a28e-48ca-49ab-91f0-d51eb2e99bd2>,
-        <ie/3c50edb3-fb2b-4815-a71e-4222c223d8fe>,
-        <ie/55a84da8-51e2-4b50-820e-9c3e49565fe1>,
-        <ie/83a10ced-d270-46db-8c76-e2b265869670>,
-        <ie/9cf77307-9c33-4995-8fac-5f9033271e3e>,
-        <ie/a9d35f4c-1634-4e1c-9e08-df36ffcebd23>,
-        <ie/babe5977-a595-4bdb-8e5f-27990be63ec0> ;
+    skos:narrower <im/0b64e5bb-5273-4be2-bac8-4e683c611427>,
+        <im/19e3cd5b-1158-421c-9372-692fc315af54>,
+        <im/1d74b550-580e-4a11-8900-8f506e38d849>,
+        <im/1f88baca-0c5e-4554-a8f6-9cd69edc1119>,
+        <im/1fe76539-b6e5-4be8-8372-a36afce98518>,
+        <im/b7026f12-72f2-406f-a7a2-9bb99b67faf9>,
+        <im/e9ed9021-4f70-4efb-a2cd-866949cae593> ;
+    skos:notation "l5.1" ;
+    skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
+
+<ie/d2b7e387-67da-4bc1-9012-197a7ef9d342> a skos:Concept ;
+    skos:broader <ie/b815e7bf-92a5-499b-bd74-d586bd43e257> ;
+    skos:inScheme <> ;
+    skos:narrower <ie/2b691438-d718-443f-9726-9a473b777d0c>,
+        <ie/3f1ba916-3760-4891-9334-7619e9236068>,
+        <ie/3f6a8093-4f46-49af-97ec-a571bcdae47a>,
+        <ie/61d73dba-d014-4504-a691-5095e428daec>,
+        <ie/6ca94eca-fdda-417f-be1b-76551c3f1731>,
+        <ie/7415d7e4-16f6-4e01-8088-0d41b8c67efd>,
+        <ie/931d2921-906c-4dbb-8575-95174ef1f06d>,
+        <ie/defdd263-e47b-4662-b911-aa16efd9c6a3> ;
     skos:notation "L3.1" ;
     skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
 
-<ie/38e59c84-7170-4009-88b6-f492e1a19e2c> a skos:Concept ;
-    skos:broader <ie/11af58a6-158f-4b9e-805a-806f79ae7a29> ;
+<ie/07264c20-4348-4646-bb0e-287f14876c7f> a skos:Concept ;
+    skos:broader <ie/f7b1f33b-5412-47e5-92c4-e3a6f5897801> ;
     skos:inScheme <> ;
-    skos:narrower <ie/08f4f215-849d-427f-a5d0-dbb33f0e372c>,
-        <ie/31240acf-ae78-4213-bbe2-caccea7d63bb>,
-        <ie/45155e59-9e5b-4ac4-9427-b5e06c277432>,
-        <ie/5318e69f-a28f-4f42-8bdd-236cdddd57c3>,
-        <ie/57d24bb3-e6b9-4a3b-b525-00b5ccfff7e4>,
-        <ie/68e88fb9-86b5-414c-937e-84db59d9e0b4>,
-        <ie/b451b5a4-4545-4a4c-9471-25121fcca620>,
-        <ie/cb517f70-f222-4ed5-b8d7-5095cc773bbc>,
-        <ie/d7cb539c-e15d-4a4b-8167-4cb3fcc73ad7>,
-        <ie/fb06ea35-7a25-438d-9bdd-c8745b240543> ;
+    skos:narrower <ie/5a3fa442-8385-4b29-97d7-90e0a5734ddb>,
+        <ie/5a61a10c-154c-48b4-8d90-1f43f562e441>,
+        <ie/99db50bb-0741-48b7-815a-04e9b686d22c>,
+        <ie/9efab11f-4bb0-4a45-9c55-7abc73e39aad>,
+        <ie/adbafc60-f273-448a-ab78-6df7a507d615>,
+        <ie/b9bded70-0322-41e1-8bac-c738012436cb>,
+        <ie/ddc061ba-b5ad-4931-a20c-7bcd247342b7>,
+        <ie/e302b3f3-8add-437f-b815-ebd12dc8fb70>,
+        <ie/ec4c8ee4-8f2f-427c-a77e-30caa7277e31>,
+        <ie/f9167a37-4633-40d7-ad74-ac7a69005922> ;
     skos:notation "L1.1" ;
     skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
 
-<im/339ccfe7-5412-4c54-a886-95b772400e6c> a skos:Concept ;
-    skos:broader <im/56600aa4-c121-4980-8e1b-ea529595c92b> ;
+<im/fb5c5db2-69b6-4a0c-b86e-2267a52d9f7b> a skos:Concept ;
+    skos:broader <im/0e729a8b-7f96-40ed-82e4-3ad9f2de9e4a> ;
     skos:inScheme <> ;
-    skos:narrower <im/12230bb5-d06a-42c6-9357-ec179ce0aae9>,
-        <im/3fd5e630-0994-46ec-bac3-f1088f15a146>,
-        <im/51610857-c7a0-4e7d-a824-bb50d912d752>,
-        <im/669a9a6d-7531-4c25-8a9a-2c6706ae880d>,
-        <im/66ebf048-9722-46e4-872f-27643141eb9c>,
-        <im/7b5e7606-8aa5-4862-915b-6bf83e1122c4>,
-        <im/8108f377-8df6-487e-b859-96b2f1255dbb>,
-        <im/bb198887-d3f5-4d73-8888-f6303b7e1597>,
-        <im/c51b65d7-93e0-42f5-b0d9-8773ba26dfd6>,
-        <im/f64ba473-762f-4ac5-8b61-7c28a509af06> ;
+    skos:narrower <im/221be844-ce23-434a-9626-85f09b8e5ed3>,
+        <im/2cbcebc7-6231-4349-a23b-f2d5ea9ed065>,
+        <im/4d07605e-3e71-4b54-a8a2-1fc94229b230>,
+        <im/567c80d1-8c8d-4bab-ba3c-62f598d712e2>,
+        <im/5d6f4d8f-509e-4289-b2ce-2156e665ea5d>,
+        <im/79d1d864-d5d0-4fe6-8a00-f0318f219504>,
+        <im/892a142c-5df2-49a2-a074-5e202cd6303f>,
+        <im/9f066cc6-9f98-431d-aab2-46ac7008a8d8>,
+        <im/ea73bf6f-9cb0-4469-8c86-7afde7d0408a>,
+        <im/ee4b704d-eb4e-447c-b8c0-3253a460dc89> ;
     skos:notation "l3.1" ;
     skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
 
-<im/c89fb83e-ffd6-44e2-8d70-7c29f1f5d5a4> a skos:Concept ;
-    skos:broader <im/831e18f4-a1e4-4762-9b5c-1ac3e7e168d6> ;
+<im/e5307b2a-cc6c-486d-84de-3105cb98d35a> a skos:Concept ;
+    skos:broader <im/7fa2a6e2-8f37-4a9a-ac50-5a2538097603> ;
     skos:inScheme <> ;
-    skos:narrower <im/061b262c-82ee-4776-8c03-c684b9314f2b>,
-        <im/0b60deb1-9e2b-4872-999d-b9a225da7222>,
-        <im/1458d772-b950-4d76-9a76-268a7c71c962>,
-        <im/3435b9b7-5f2a-4859-8088-248e5b6e13ec>,
-        <im/3699b512-e0d6-425e-b3f6-edd58b5df23e>,
-        <im/41376eb3-9002-4599-8d56-997b9353cf3a>,
-        <im/631c6b79-c902-476d-b736-5791908c29e0>,
-        <im/7ef86d6e-4324-4cc7-9136-30ce857a7c5e>,
-        <im/a1596b7f-38e0-425f-adef-e2c9cd5191e4>,
-        <im/d6cbc2ba-521d-4acd-889f-d68cb4fdd850>,
-        <im/e0313f93-99f9-4890-bfcd-32f624d2c790> ;
+    skos:narrower <im/17d6fa9c-96f6-4afa-ae3b-d39f25e91567>,
+        <im/28c2cab0-45ed-40da-85b0-954953d95947>,
+        <im/34788a00-0b2d-4b7d-b856-1ae436e48d43>,
+        <im/3f5355bc-73e1-4289-ba57-f2c323c1f3ef>,
+        <im/443bb26a-bbe8-4c54-bbe1-f627935d5640>,
+        <im/6b275c31-a8b9-4d6c-9738-de68fadb7f3c>,
+        <im/717b4c60-da06-4d8b-b44e-ee3b1700db60>,
+        <im/7cdc460e-a022-4ddd-923c-dc034f60866a>,
+        <im/a51231f0-544a-472c-9df7-cf246f2325fc>,
+        <im/bf5c2c1b-f570-4d76-a171-bc58eff1eb2f>,
+        <im/c292bb5c-9f2a-4575-b076-a37b14e7f331> ;
     skos:notation "l1.1" ;
     skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
 
-<im/423dfbf2-20b3-4040-8eb2-8ff7f01b0d0d> a skos:Concept ;
-    skos:broader <im/e0acc84c-1d0e-45d6-83d3-2c26f7ebf033> ;
+<im/fe5ce2c7-3697-4188-b1fe-6b63cbdb8d66> a skos:Concept ;
+    skos:broader <im/4a387fcb-4e47-4071-9ccc-64a3bc3932bd> ;
     skos:inScheme <> ;
-    skos:narrower <im/0323aa41-da08-4691-835c-9f28edea4d8f>,
-        <im/2b946345-64d7-4c5a-9641-d366aee32897>,
-        <im/4179396b-1e09-49ac-8da1-fa616339ab99>,
-        <im/4730c1e4-c107-4bb1-bbcb-8ed208e755a3>,
-        <im/5b8d1aaa-ff92-4947-942a-721d7e4fface>,
-        <im/79158216-1374-4cf1-ac1f-515207c8e5d2>,
-        <im/807a0dc2-1ece-4a91-a380-a37f74698609>,
-        <im/84284fad-1247-476a-820c-30028962d651>,
-        <im/9db60f1e-f4c4-4e40-9aeb-28342e90d5c2>,
-        <im/b25a65cb-51db-42a4-b655-89559aee6ac7>,
-        <im/c4aa5300-9755-4bf9-990c-c641af38e5b0>,
-        <im/ef6c1160-80f5-4e48-abfa-1106e3ed9e68> ;
+    skos:narrower <im/20744ffd-205a-42dd-8c39-9f4c8c6074ea>,
+        <im/2cf9e669-d0d4-4a2e-9bda-3c8679c369a2>,
+        <im/4ada3aa1-738e-4c8c-81c7-a324df5eb064>,
+        <im/53147120-2320-434e-a3d3-c4332fc053d4>,
+        <im/9419f042-b9e8-4e1d-be85-7aeab621ac23>,
+        <im/9c6d59a7-5346-46ca-be54-97a0a9a4d117>,
+        <im/9eb54e96-9a21-414b-bcb2-52b5a2e13fe6>,
+        <im/a1a9fc12-8812-4295-874d-15afd7a68372>,
+        <im/ac73ad35-27a8-44bb-b4d9-c4c9cccf9c92>,
+        <im/b583a413-55d0-455c-982f-709420c3396a>,
+        <im/c77c764f-bd02-4ae1-93b6-cac2102aa100>,
+        <im/dd6482e0-2672-4a36-b0e3-ad19f783c202> ;
     skos:notation "l4.1" ;
     skos:prefLabel "Die Schülerinnen und Schüler ..."@de .
 
